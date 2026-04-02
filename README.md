@@ -66,7 +66,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 4. Use the Regulatory Inspection View to export a Practice Review‑ready file.
 
 ## 📁 HKICPA Audit File Index
- <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="1200" height="600" />
+ <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="800" height="600" />
 
 ## ⚙️ Run Locally
 
