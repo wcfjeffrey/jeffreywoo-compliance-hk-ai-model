@@ -15,7 +15,7 @@
 **JeffreyWoo HK Compliance** is an AI-powered compliance monitoring application that automatically detects anomalies and potential non-compliance with Hong Kong accounting and auditing frameworks. It helps audit firms, accounting managers, and compliance officers catch issues early, reduce risk, and prepare for regulatory inspections.
 
 ## ✨ What It Does
-- 📑 **Multi‑Framework Compliance** – Automatically checks financial statements, audit working papers, and ESG disclosures against HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAE, HKSRS, and sustainability guidance.
+- 📑 **Multi‑Framework Compliance** – Automatically checks financial statements, audit working papers, and ESG disclosures against HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAE, HKSRS, and Environmental, Social and Governance (ESG) guidance.
 - ⚖️ **Materiality & Risk Triage** – Calculates overall materiality, performance materiality, and clearly trivial thresholds (HKSA 320). Flags issues by severity (Critical / High / Medium / Low) so you focus on what really matters.
 - 🎯 **Audit Sampling Engine** – Uses materiality values to compute required sample sizes under HKSA 530. Alerts when sample sizes are insufficient.
 - 🔍 **Ethics & Independence Tracker** – Detects breaches of confidentiality, objectivity, and independence (e.g., audit partner also providing tax advisory).
@@ -33,7 +33,7 @@
 
 ## 💡Compliance Transformation Impact
 This project shows how AI can strengthen financial governance by:
-- Automating anomaly detection across important Hong Kong compliance professional frameworks (including HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAEs, HKSRS, ESG guidance) – reducing manual review time.
+- Automating anomaly detection across important Hong Kong compliance professional frameworks (including HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAE, HKSRS, ESG guidance) – reducing manual review time.
 - Embedding materiality‑based judgment into everyday compliance checks – aligning with real audit methodology.
 - Improving audit quality through automated sampling calculations, ethics monitoring, and documentation gap alerts.
 - Preparing firms for regulatory inspection with a ready‑to‑export Practice Review file.
