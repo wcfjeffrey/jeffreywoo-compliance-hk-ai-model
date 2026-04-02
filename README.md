@@ -103,7 +103,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 <img src="assets/JeffreyWooComplianceHK15.png" alt="JeffreyWooComplianceHK15" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK16.png" alt="JeffreyWooComplianceHK16" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK17.png" alt="JeffreyWooComplianceHK17" width="1200" height="600" />
-<img src="assets/JeffreyWooComplianceHK18.png" alt="JeffreyWooComplianceHK18" width="1200" height="1200" />
+<img src="assets/JeffreyWooComplianceHK18.png" alt="JeffreyWooComplianceHK18" width="1200" height="1400" />
 <img src="assets/JeffreyWooComplianceHK19.png" alt="JeffreyWooComplianceHK19" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK20.png" alt="JeffreyWooComplianceHK20" width="1200" height="1200" />
 <img src="assets/JeffreyWooComplianceHK21.png" alt="JeffreyWooComplianceHK21" width="1200" height="600" />
