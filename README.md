@@ -33,7 +33,7 @@
 
 ## 💡Compliance Transformation Impact
 This project shows how AI can strengthen financial governance by:
-- Automating anomaly detection across important Hong Kong compliance professional frameworks (including HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAsE, HKSRS, ESG guidance) – reducing manual review time.
+- Automating anomaly detection across important Hong Kong compliance professional frameworks (including HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAEs, HKSRS, ESG guidance) – reducing manual review time.
 - Embedding materiality‑based judgment into everyday compliance checks – aligning with real audit methodology.
 - Improving audit quality through automated sampling calculations, ethics monitoring, and documentation gap alerts.
 - Preparing firms for regulatory inspection with a ready‑to‑export Practice Review file.
@@ -49,7 +49,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 | **Auditing**	| HKSA 230, 320, 500, 505, 530, 550, 570, etc.| 
 | **Quality Management**	| HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)| 
 | **Ethics**	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
-| **Assurance & Related Services**	| HKSAsE, HKSRS 4400 (agreed‑upon procedures)| 
+| **Assurance & Related Services**	| HKSAEs, HKSRS 4400 (agreed‑upon procedures)| 
 | **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
 
 ## ⭐ Finance & Audit Skills Strengthened
