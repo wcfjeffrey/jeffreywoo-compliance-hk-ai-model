@@ -65,6 +65,9 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 3. Review the Compliance Dashboard – issues are grouped by category, severity, and HKICPA Audit File Index (A–Z).
 4. Use the Regulatory Inspection View to export a Practice Review‑ready file.
 
+## 📁 HKICPA Audit File Index
+ <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="1200" height="600" />
+
 ## ⚙️ Run Locally
 
 **Prerequisites:**  Node.js
