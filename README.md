@@ -131,7 +131,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 
 The financial data, trial balance figures, compliance issues, audit working papers, and all quantitative information presented in this sample are fictitious and created solely for testing and demonstration purposes. They do not represent the actual financial position, performance, or audit findings of China Metal Recycling (Holdings) Limited or any of its director.
 
-However, the company name China Metal Recycling (Holdings) Limited and the name of its director Mr Chun Chi Wai are real and refer to the actual legal entity and person associated with the historical case for testing Background Check by this app. Any resemblance of the fictitious financial data to actual events or figures is purely coincidental.
+However, the company name China Metal Recycling (Holdings) Limited and the name of its chairman Mr Chun Chi Wai are real and refer to the actual legal entity and person associated with the historical case for testing Background Check by this app. Any resemblance of the fictitious financial data to actual events or figures is purely coincidental.
 
 This sample is intended exclusively for software testing, academic, or professional development use and should not be relied upon for any investment, legal, or regulatory decision.
 
