@@ -35,13 +35,14 @@ This project shows how AI can strengthen financial governance by:
 Most compliance tools only flag “rule violations”. HK Compliance AI goes further – it applies materiality, risk scoring, and audit procedure automation so you can prioritise issues, respond appropriately, and demonstrate professional judgment to regulators and clients.
 
 ## 📚 Standards & Frameworks Covered
-Category	Standards
-Accounting	HKFRS, HKAS (recognition, measurement, disclosure)
-Auditing	HKSA 230, 320, 500, 505, 530, 550, 570, etc.
-Quality Management	HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)
-Ethics	HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)
-Assurance & Related Services	HKSAsE, HKSRS 4400 (agreed‑upon procedures)
-ESG / Sustainability	HKICPA sustainability guidance, ISSB‑aligned disclosure checks
+| Category	| Standards| 
+|-----------|----------|
+| Accounting	| HKFRS, HKAS (recognition, measurement, disclosure)| 
+| Auditing	| HKSA 230, 320, 500, 505, 530, 550, 570, etc.| 
+| Quality Management	| HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)| 
+| Ethics	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
+| Assurance & Related Services	| HKSAsE, HKSRS 4400 (agreed‑upon procedures)| 
+| ESG / Sustainability	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
 
 ## ⭐ Finance & Audit Skills Strengthened
 - Applying materiality (HKSA 320) in an automated risk triage engine.
