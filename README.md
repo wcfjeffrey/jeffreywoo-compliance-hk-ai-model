@@ -87,6 +87,45 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
    `npm run dev`
 
 ## 📋 Sample
+<img src="assets/JeffreyWooComplianceHK2.png" alt="JeffreyWooComplianceHK2" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK3.png" alt="JeffreyWooComplianceHK3" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK4.png" alt="JeffreyWooComplianceHK4" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK5.png" alt="JeffreyWooComplianceHK5" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK6.png" alt="JeffreyWooComplianceHK6" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK7.png" alt="JeffreyWooComplianceHK7" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK8.png" alt="JeffreyWooComplianceHK8" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK9.png" alt="JeffreyWooComplianceHK9" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK10.png" alt="JeffreyWooComplianceHK10" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK11.png" alt="JeffreyWooComplianceHK11" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK12.png" alt="JeffreyWooComplianceHK12" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK13.png" alt="JeffreyWooComplianceHK13" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK14.png" alt="JeffreyWooComplianceHK14" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK15.png" alt="JeffreyWooComplianceHK15" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK16.png" alt="JeffreyWooComplianceHK16" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK17.png" alt="JeffreyWooComplianceHK17" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK18.png" alt="JeffreyWooComplianceHK18" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK19.png" alt="JeffreyWooComplianceHK19" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK20.png" alt="JeffreyWooComplianceHK20" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK21.png" alt="JeffreyWooComplianceHK21" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK22.png" alt="JeffreyWooComplianceHK22" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK23.png" alt="JeffreyWooComplianceHK23" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK24.png" alt="JeffreyWooComplianceHK24" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK25.png" alt="JeffreyWooComplianceHK25" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK26.png" alt="JeffreyWooComplianceHK26" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK27.png" alt="JeffreyWooComplianceHK27" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK28.png" alt="JeffreyWooComplianceHK28" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK29.png" alt="JeffreyWooComplianceHK29" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK30.png" alt="JeffreyWooComplianceHK30" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK31.png" alt="JeffreyWooComplianceHK31" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK32.png" alt="JeffreyWooComplianceHK32" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK33.png" alt="JeffreyWooComplianceHK33" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK34.png" alt="JeffreyWooComplianceHK34" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK35.png" alt="JeffreyWooComplianceHK35" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK36.png" alt="JeffreyWooComplianceHK36" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK37.png" alt="JeffreyWooComplianceHK37" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK38.png" alt="JeffreyWooComplianceHK38" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK39.png" alt="JeffreyWooComplianceHK39" width="1200" height="600" />
+<img src="assets/JeffreyWooComplianceHK40.png" alt="JeffreyWooComplianceHK40" width="1200" height="600" />
 
 
 
