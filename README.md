@@ -15,7 +15,7 @@
 **JeffreyWoo HK Compliance** is an AI-powered compliance monitoring application that automatically detects anomalies and potential non-compliance with Hong Kong accounting and auditing frameworks. It helps audit firms, accounting managers, and compliance officers catch issues early, reduce risk, and prepare for regulatory inspections.
 
 ## ✨ What It Does
-- 📑 **Multi‑Framework Compliance** – Automatically checks financial statements, audit working papers, and ESG disclosures against HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSRS, and sustainability guidance.
+- 📑 **Multi‑Framework Compliance** – Automatically checks financial statements, audit working papers, and ESG disclosures against HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAE, HKSRS, and sustainability guidance.
 - ⚖️ **Materiality & Risk Triage** – Calculates overall materiality, performance materiality, and clearly trivial thresholds (HKSA 320). Flags issues by severity (Critical / High / Medium / Low) so you focus on what really matters.
 - 🎯 **Audit Sampling Engine** – Uses materiality values to compute required sample sizes under HKSA 530. Alerts when sample sizes are insufficient.
 - 🔍 **Ethics & Independence Tracker** – Detects breaches of confidentiality, objectivity, and independence (e.g., audit partner also providing tax advisory).
