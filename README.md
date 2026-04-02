@@ -127,7 +127,20 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 <img src="assets/JeffreyWooComplianceHK39.png" alt="JeffreyWooComplianceHK39" width="1200" height="2400" />
 <img src="assets/JeffreyWooComplianceHK40.png" alt="JeffreyWooComplianceHK40" width="1200" height="1200" />
 
+## ⚖️ Disclaimer
 
+The financial data, trial balance figures, compliance issues, audit working papers, and all quantitative information presented in this sample are fictitious and created solely for testing and demonstration purposes. They do not represent the actual financial position, performance, or audit findings of China Metal Recycling (Holdings) Limited or any of its director.
+
+However, the company name China Metal Recycling (Holdings) Limited and the name of its director Mr Chun Chi Wai are real and refer to the actual legal entity and person associated with the historical case for testing Background Check by this app. Any resemblance of the fictitious financial data to actual events or figures is purely coincidental.
+
+This sample is intended exclusively for software testing, academic, or professional development use and should not be relied upon for any investment, legal, or regulatory decision.
+
+## 👤 About the Author
+Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimization | MBA | FCCA | CTA | FTIHK | SAP Financial Accounting (FI) Certified Application Associate | Xero Advisor Certified
+
+📧 Email: jeffreywoocf@gmail.com  
+💼 LinkedIn: https://www.linkedin.com/in/wcfjeffrey/  
+🐙 GitHub: https://github.com/wcfjeffrey/
 
 
 
