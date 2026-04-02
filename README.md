@@ -15,34 +15,34 @@
 **JeffreyWoo HK Compliance** is an AI-powered compliance monitoring application that automatically detects anomalies and potential non-compliance with Hong Kong accounting and auditing frameworks. It helps audit firms, accounting managers, and compliance officers catch issues early, reduce risk, and prepare for regulatory inspections.
 
 ## ✨ What It Does
-- 📑 Multi‑Framework Compliance – Automatically checks financial statements, audit working papers, and ESG disclosures against HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSRS, and sustainability guidance.
-- ⚖️ Materiality & Risk Triage – Calculates overall materiality, performance materiality, and clearly trivial thresholds (HKSA 320). Flags issues by severity (Critical / High / Medium / Low) so you focus on what really matters.
-- 🎯 Audit Sampling Engine – Uses materiality values to compute required sample sizes under HKSA 530. Alerts when sample sizes are insufficient.
-- 🔍 Ethics & Independence Tracker – Detects breaches of confidentiality, objectivity, and independence (e.g., audit partner also providing tax advisory).
-- 📦 Regulatory Inspection View – One‑click export of the entire audit file in HKICPA Practice Review‑ready format (PDF, Excel). Filter by standard (e.g., HKSA 230).
-- 🌱 ESG Assurance Readiness – Reviews sustainability disclosures against emerging standards and HKICPA guidance. Flags unsupported claims (e.g., “carbon neutral” without evidence).
-- 🏢 Multi‑Company & IRD Support – Handles multiple clients, each with its own data. Classifies year‑ends using IRD codes (N / D / M).
+- 📑 **Multi‑Framework Compliance** – Automatically checks financial statements, audit working papers, and ESG disclosures against HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSRS, and sustainability guidance.
+- ⚖️ **Materiality & Risk Triage** – Calculates overall materiality, performance materiality, and clearly trivial thresholds (HKSA 320). Flags issues by severity (Critical / High / Medium / Low) so you focus on what really matters.
+- 🎯 **Audit Sampling Engine** – Uses materiality values to compute required sample sizes under HKSA 530. Alerts when sample sizes are insufficient.
+- 🔍 **Ethics & Independence Tracker** – Detects breaches of confidentiality, objectivity, and independence (e.g., audit partner also providing tax advisory).
+- 📦 **Regulatory Inspection View** – One‑click export of the entire audit file in HKICPA Practice Review‑ready format (PDF, Excel). Filter by standard (e.g., HKSA 230).
+- 🌱 **ESG Assurance Readiness** – Reviews sustainability disclosures against emerging standards and HKICPA guidance. Flags unsupported claims (e.g., “carbon neutral” without evidence).
+- 🏢 **Multi‑Company & IRD Support** – Handles multiple clients, each with its own data. Classifies year‑ends using IRD codes (N / D / M).
 
 ## 💡Compliance Transformation Impact
 This project shows how AI can strengthen financial governance by:
-- Automating anomaly detection across 8+ professional frameworks – reducing manual review time.
+- Automating anomaly detection across important Hong Kong compliance professional frameworks (including HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAsE, HKSRS, ESG guidance) – reducing manual review time.
 - Embedding materiality‑based judgment into everyday compliance checks – aligning with real audit methodology.
 - Improving audit quality through automated sampling calculations, ethics monitoring, and documentation gap alerts.
 - Preparing firms for regulatory inspection with a ready‑to‑export Practice Review file.
 - Supporting ESG assurance as sustainability reporting becomes mandatory.
 
 ## 🚀 Why Choose JeffreyWoo Compliance HK
-Most compliance tools only flag “rule violations”. HK Compliance AI goes further – it applies materiality, risk scoring, and audit procedure automation so you can prioritise issues, respond appropriately, and demonstrate professional judgment to regulators and clients.
+Most compliance tools only flag **“rule violations”**. HK Compliance AI goes further – it applies materiality, risk scoring, and audit procedure automation so you can prioritise issues, respond appropriately, and demonstrate professional judgment to regulators and clients.
 
 ## 📚 Standards & Frameworks Covered
 | Category	| Standards| 
 |-----------|----------|
-| Accounting	| HKFRS, HKAS (recognition, measurement, disclosure)| 
-| Auditing	| HKSA 230, 320, 500, 505, 530, 550, 570, etc.| 
-| Quality Management	| HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)| 
-| Ethics	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
-| Assurance & Related Services	| HKSAsE, HKSRS 4400 (agreed‑upon procedures)| 
-| ESG / Sustainability	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
+| **Accounting**	| HKFRS, HKAS (recognition, measurement, disclosure)| 
+| **Auditing**	| HKSA 230, 320, 500, 505, 530, 550, 570, etc.| 
+| **Quality Management**	| HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)| 
+| **Ethics**	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
+| **Assurance & Related Services**	| HKSAsE, HKSRS 4400 (agreed‑upon procedures)| 
+| **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
 
 ## ⭐ Finance & Audit Skills Strengthened
 - Applying materiality (HKSA 320) in an automated risk triage engine.
