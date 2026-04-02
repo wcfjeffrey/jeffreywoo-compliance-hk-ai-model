@@ -23,11 +23,12 @@
 - 🌱 **ESG Assurance Readiness** – Reviews sustainability disclosures against emerging standards and HKICPA guidance. Flags unsupported claims (e.g., “carbon neutral” without evidence).
 - 🏢 **Multi‑Company & IRD Support** – Handles multiple clients, each with its own data. Classifies year‑ends using Hong Kong Inland Revenue Department (IRD) Accounting Date Codes (N / D / M).
 
-### IRD Accounting Date Codes
+### 🗓️ IRD Accounting Date Codes
 - **N code:** 1 April to 30 November → filing due within 1 month of issue, no extension allowed.
 - **D code:** 1 December to 31 December → filing due within 1 month of issue, extension available until August 15.
 - **M code profit cases:** 1 January to 31 March → filing due within 1 month of issue, extension available until November 15
 - **M code loss cases:** 1 January to 31 March → filing due within 1 month of issue, extension available until January 31 of the following year 
+
 **Note:** IRD uses the N / D / M Accounting Date Codes to classify companies based on their financial year-end dates. These codes determine the filing deadlines for Profits Tax Returns, and the extension dates are different for each category:
 
 ## 💡Compliance Transformation Impact
