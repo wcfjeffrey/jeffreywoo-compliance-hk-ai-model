@@ -21,7 +21,14 @@
 - 🔍 **Ethics & Independence Tracker** – Detects breaches of confidentiality, objectivity, and independence (e.g., audit partner also providing tax advisory).
 - 📦 **Regulatory Inspection View** – One‑click export of the entire audit file in HKICPA Practice Review‑ready format (PDF, Excel). Filter by standard (e.g., HKSA 230).
 - 🌱 **ESG Assurance Readiness** – Reviews sustainability disclosures against emerging standards and HKICPA guidance. Flags unsupported claims (e.g., “carbon neutral” without evidence).
-- 🏢 **Multi‑Company & IRD Support** – Handles multiple clients, each with its own data. Classifies year‑ends using IRD codes (N / D / M).
+- 🏢 **Multi‑Company & IRD Support** – Handles multiple clients, each with its own data. Classifies year‑ends using Hong Kong Inland Revenue Department (IRD) Accounting Date Codes (N / D / M).
+
+### IRD Accounting Date Codes
+- **N code:** 1 April 2024 to 30 November 2024
+- **D code:** 1 December to 31 December 2024
+- **M code profit cases:** 1 January 2025 to 31 March 2025
+- **M code loss cases:** 1 January 2025 to 31 March 2025
+**Note:** IRD uses the N / D / M Accounting Date Codes to classify companies based on their financial year-end dates. These codes determine the filing deadlines for Profits Tax Returns.
 
 ## 💡Compliance Transformation Impact
 This project shows how AI can strengthen financial governance by:
