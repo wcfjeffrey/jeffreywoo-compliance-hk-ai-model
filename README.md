@@ -193,6 +193,9 @@ The tests cover:
 
 <img src="assets/JeffreyWooComplianceHK35.png" alt="JeffreyWooComplianceHK35" width="1200" height="1200" />
 <img src="assets/JeffreyWooComplianceHK36.png" alt="JeffreyWooComplianceHK36" width="1200" height="2800" />
+
+**Note:** The severity and index assignments follow the HKICPA Audit Practice Manual.
+
 <img src="assets/JeffreyWooComplianceHK37.png" alt="JeffreyWooComplianceHK37" width="1200" height="1200" />
 
 #### 16. Regulatory View
@@ -221,8 +224,6 @@ The tests cover:
 | 8	| Ethics	| [Quality Control Review Notes.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Quality%20Control%20Review%20Notes.docx) | 
 | 9	| Assurance	| [Audit Working Papers.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Working%20Papers.docx) | 
 | 10	| ESG	| [Sustainability Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Sustainability%20Report.docx) | 
-
-**Note:** The severity and index assignments follow the HKICPA Audit Practice Manual (A = Final Completion, C = Audit Planning, R = Profit and Loss, M = Long‑term Loans, Y = Other Primary Financial Statements).
 
 ## ⚖️ Disclaimer
 
