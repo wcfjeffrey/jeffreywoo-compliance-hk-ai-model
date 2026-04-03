@@ -69,7 +69,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 
 ## 📦 Getting Started
 1. Upload your financial data (trial balance, audit working papers, ESG disclosures) as CSV, TXT, JSON, XLSX, DOCX, or PDF files (maximum file size 10MB).
-2. The app automatically detects issues and maps them to the relevant HK standard.
+2. The app automatically detects issues and maps them to the relevant HK accounting and audit standards.
 3. Review the Compliance Dashboard – issues are grouped by category, severity, and HKICPA Audit File Index (A–Z).
 4. Use the Regulatory Inspection View to export a Practice Review‑ready file.
 
