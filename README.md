@@ -29,7 +29,7 @@
 - **M code profit cases:** 1 January to 31 March → filing due within 1 month of issue, extension available until November 15
 - **M code loss cases:** 1 January to 31 March → filing due within 1 month of issue, extension available until January 31 of the following year 
 
-**Note:** IRD uses the N / D / M Accounting Date Codes to classify companies based on their financial year-end dates. These codes determine the filing deadlines for Profits Tax Returns, and the extension dates are different for each category. Moreover, the extension dates (August 15, November 15 and January 31) are not fixed forever. They are administrative deadlines set by IRD, and IRD can adjust them depending on the year’s filing arrangements, weekends, or public holidays
+**Note:** Audit firms often use the IRD Accounting Date Codes (N/D/M) to classify companies based on their financial year‑end dates. This classification helps streamline the handling of clients’ tax returns and audits. These codes determine the filing deadlines for Profits Tax Returns, with different extension dates for each category. It is important to note that the above extension dates (e.g., 15 August, 15 November, 31 January) are not fixed permanently. They are administrative deadlines set by the IRD, and the IRD may adjust them depending on the year’s filing arrangements, weekends, or public holidays. Practitioners should always refer to the latest IRD practice notes or announcements for the current filing schedule.
 
 ## 💡Compliance Transformation Impact
 This project shows how AI can strengthen financial governance by:
