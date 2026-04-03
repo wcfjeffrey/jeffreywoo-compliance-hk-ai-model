@@ -151,7 +151,7 @@ The tests cover:
 
 | Item	| Test Category	| Standard	| Trigger (Input)	| Expected Output	| Severity	| HKICPA Index |
 |-------|---------------|-----------|-----------------|-----------------|-----------|--------------|
-| 1	| Materiality	| HKSA 320	| Trial balance shows PBT HK$75M; user selects 5% benchmark	| Overall materiality = HK$3.75M <p> Performance = HK$2.8125M Trivial = HK$187.5K	| N/A	| C |
+| 1	| Materiality	| HKSA 320	| Trial balance shows PBT HK$75M; user selects 5% benchmark	| Overall materiality = HK$3.75M Performance = HK$2.8125M Trivial = HK$187.5K	| N/A	| C |
 | 2	| Audit Sampling	| HKSA 530	| Population 10,000 transactions (HK$500M); actual sample = 2; Performance materiality = HK$2.8125M	| Required sample size calculated (e.g., 93); “Sample size insufficient.”	| High	| C |
 | 3	| Accounting	| HKFRS 15	| Revenue recognised upfront for 3‑year service contract	| “Revenue should be recognised over time under HKFRS 15.”	| High	| R |
 | 4	| Accounting	| HKFRS 16	| Lease recorded as operating lease but meets finance lease criteria	| “Lease misclassified. HKFRS 16 requires capitalization.”	| High	| M or F |
