@@ -87,6 +87,26 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
    `npm run dev`
 
 ## 📋 Sample
+
+### Purpose
+This package provides structured test data to validate the application’s ability to detect anomalies and non‑compliance across Hong Kong accounting, auditing, quality management, ethics, assurance, ESG, and materiality‑driven audit sampling frameworks.
+
+### Scope
+The tests cover:
+- Accounting (HKFRS 15, HKFRS 16)
+- Audit (HKSA 230, HKSA 530)
+- Quality Management (HKSQM 1, HKSQM 2)
+- Ethics & Independence (HKICPA Code of Ethics)
+- Assurance & Related Services (HKSRS 4400)
+- ESG / Sustainability Disclosures
+- Materiality calculation & risk triage (HKSA 320)
+- Audit sampling size engine (HKSA 530)
+
+### Companies Used
+- ABC Corporation Limited (fictitious, for initial tests)
+- China Metal Recycling (Holdings) Limited (real company name, fictitious financial data)
+
+### Testing Results
 <img src="assets/JeffreyWooComplianceHK2.png" alt="JeffreyWooComplianceHK2" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK3.png" alt="JeffreyWooComplianceHK3" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK4.png" alt="JeffreyWooComplianceHK4" width="1200" height="600" />
@@ -126,6 +146,29 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 <img src="assets/JeffreyWooComplianceHK38.png" alt="JeffreyWooComplianceHK38" width="1200" height="1800" />
 <img src="assets/JeffreyWooComplianceHK39.png" alt="JeffreyWooComplianceHK39" width="1200" height="2400" />
 <img src="assets/JeffreyWooComplianceHK40.png" alt="JeffreyWooComplianceHK40" width="1200" height="1200" />
+
+## Summary Table of Test Cases
+
+| Item	| Test Category	| Standard	| Trigger (Input)	| Expected Output	| Severity	| HKICPA Index |
+|-------|---------------|-----------|-----------------|-----------------|-----------|--------------|
+| 1	| Accounting	| HKFRS 15	| Revenue recognised upfront for 3‑year service contract	| “Revenue should be recognised over time under HKFRS 15.”	| High	| R |
+| 2	| Accounting	| HKFRS 16	| Lease recorded as operating lease but meets finance lease criteria	| “Lease misclassified. HKFRS 16 requires capitalization.”	| High	| M or F |
+| 3	| Audit	| HKSA 530	| Auditor tests only 2 transactions out of 10,000	| “Sample size insufficient under HKSA 530.”	| High	| C |
+| 4	| Audit	| HKSA 230	| No documentation of risk assessment procedures	| “Missing documentation violates HKSA 230.”	| High	| C |
+| 5	| Quality Management	| HKSQM 1 / Ethics	| Audit partner also provides tax advisory to same client	| “Independence compromised. Breach of HKSQM 1 and Code of Ethics.”	| Critical	| A |
+| 6	| Ethics	| HKICPA Code	| Auditor shares client data with third party without consent	| “Breach of HKICPA Code of Ethics – Confidentiality principle.”	| Critical	| A |
+| 7	| Assurance	| HKSRS 4400	| Agreed‑upon procedures report claims “reasonable assurance”	| “Incorrect assurance level. Breach of HKSRS 4400.”	| High	| A |
+| 8	| ESG	| HKICPA ESG guidance	| Company claims “carbon neutral” without supporting data	| “Unsupported ESG disclosure. Breach of HKICPA sustainability guidance.”	| Medium	| Y |
+| 9	| Quality Management	| HKSQM 1.24‑27	| Risk assessment questionnaire shows all “No” despite clear financial anomalies	| “Missing risk assessment process – HKSQM 1.”| 	High	| C |
+| 10	| Quality Management	| HKSQM 1.30 / HKSA 600	| High‑volume subsidiary omitted from audit scope as “no substantive operations”	| “Improper group audit scope determination.”	| High	| C |
+| 11	| Quality Management	| HKSQM 2	| Engagement quality review checklist contains only formal items, no substantive challenge	| “Engagement quality review lacking substance.”	| High	| A |
+| 12	| Quality Management	| HKSQM 1.30‑32	| Client continuance recommended based on “substantial audit fees” despite high risk	| “Client acceptance & continuance risk assessment failure.”	| High	| C |
+| 13	| Quality Management	| HKSQM 1.46‑47	| Client wound up but firm did not trigger self‑inspection	| “Monitoring and remediation process missing.”	| High	| A |
+| 14	| Quality Management	| HKSQM 1.15‑18	| Partner performance evaluation favours revenue over quality; quality budget below industry	| “Leadership responsibility & quality culture deficiencies.”	| High	| A |
+| 15	| Materiality	| HKSA 320	| Trial balance shows PBT HK$75M; user selects 5% benchmark	| Overall materiality = HK$3.75M, Performance = HK$2.8125M, Trivial = HK$187.5K	| N/A	| C |
+| 16	| Audit Sampling	| HKSA 530	| Population 10,000 transactions (HK$500M); actual sample = 2; Performance materiality = HK$2.8125M	| Required sample size calculated (e.g., 93); “Sample size insufficient.”	| High	| C |
+
+**Note:** The severity and index assignments follow the HKICPA Audit Practice Manual (A = Final Completion, C = Audit Planning, R = Profit and Loss, M = Long‑term Loans, Y = Other Primary Financial Statements).
 
 ## ⚖️ Disclaimer
 
