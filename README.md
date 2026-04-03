@@ -221,7 +221,7 @@ The tests cover:
 | 5	| Quality Management | [Audit Client Continuance Risk Assessment Form.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Client%20Continuance%20Risk%20Assessment%20Form.docx) | Client acceptance/retention evaluation |
 | 6	| Quality Management | [Audit Firm Annual Quality Monitoring Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Quality%20Monitoring%20Report.docx)	| Internal monitoring results |
 | 7	| Quality Management | [Audit Firm Annual Partner Performance Review.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Partner%20Performance%20Review.docx) | Partner appraisal |
-| 8	| Ethics | [Quality Control Review Notes.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Quality%20Control%20Review%20Notes.docx) | Ethics / Quality control (QC) review observations |
+| 8	| Ethics | [Quality Control Review Notes.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Quality%20Control%20Review%20Notes.docx) | Ethics / Quality Control (QC) review observations |
 | 9	| Assurance | [Audit Working Papers.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Working%20Papers.docx) | Evidence from specific engagements |
 | 10	| ESG | [Sustainability Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Sustainability%20Report.docx) | ESG disclosures and metrics |
 
