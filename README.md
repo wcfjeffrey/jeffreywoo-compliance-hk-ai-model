@@ -68,6 +68,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 - **AI** – Google Gemini (for anomaly detection and standard mapping)
 
 ## 📦 Getting Started
+
 1. **Set up a new company/client** – Configure the company profile, including:
 - Company name
 - Financial year‑end (automatically assigned an IRD Accounting Date Code)
@@ -75,10 +76,10 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 - Business registration number (optional)
 - Key personnel (optional)
 - Preliminary estimated materiality thresholds (can be updated automatically later by fetching financial data from the uploaded trial balance or financial statement).
-2. **Upload your accounting, audit, and compliance documents** – Supported formats: CSV, TXT, JSON, XLSX, DOCX, or PDF (max file size 10MB per file).
-Examples include: trial balance, audit working papers, compliance issues, quality management records, engagement quality review checklist, client continuance assessment, quality monitoring reports, partner performance reviews, quality control review notes, and ESG/sustainability reports.
-3. **Automatic issue detection & mapping** – The app automatically identifies issues and maps them to the relevant Hong Kong financial reporting, auditing, assurance, ethical, and sustainability‑related standards.
-4. **Review the Compliance Dashboard** – Issues are grouped by category, severity, and HKICPA Audit File Index (A–Z).
+2. **Upload your accounting, audit, and compliance documents** – Supported formats: CSV, TXT, JSON, XLSX, DOCX, or PDF (max file size 10MB per file).  
+Examples include: trial balance, audit working papers, compliance issues, quality management records, engagement quality review checklist, client continuance assessment, quality monitoring reports, partner performance reviews, quality control review notes, and ESG/sustainability reports.  
+3. **Automatic issue detection & mapping** – The app automatically identifies issues and maps them to the relevant Hong Kong financial reporting, auditing, assurance, ethical, and sustainability‑related standards.  
+4. **Review the Compliance Dashboard** – Issues are grouped by category, severity, and HKICPA Audit File Index (A–Z).  
 5. **Export for regulatory inspection** – Use the Regulatory Inspection View to generate a Practice Review‑ready file.
 
 ## 📁 HKICPA Audit File Index
