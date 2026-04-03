@@ -273,7 +273,7 @@ This app is for informational and demonstration purposes only. It does not const
 
 The software is provided “as is” without warranties of accuracy or fitness for a particular purpose. Outputs are based on pre‑defined rules and AI models; professional judgment remains essential.
 
-To the fullest extent permitted by law, the developers are not liable for any damages arising from use of this app.
+To the fullest extent permitted by law, the developer of this app is not liable for any damages arising from use of this app.
 
 ## 👤 About the Author
 Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimization | MBA | FCCA | CTA | FTIHK | SAP Financial Accounting (FI) Certified Application Associate | Xero Advisor Certified
