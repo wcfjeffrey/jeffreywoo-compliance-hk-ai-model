@@ -212,18 +212,18 @@ The tests cover:
 
 ## Input Files of Test Cases
 
-| Item	| Test Category	| Input Documents	| 
-|-------|---------------|-----------------|
-| 1	| Accounting	| [Trial Balance.xlsx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Trial%20Balance.xlsx) |
-| 2	| Audit	| [Compliance Issues.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Compliance%20Issues.docx) | 
-| 3	| Quality Management	| [Audit Firm Annual Quality Risk Management Record.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Quality%20Risk%20Management%20Record.docx) | 
-| 4	| Quality Management	| [Engagement Quality Review Checklist.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Engagement%20Quality%20Review%20Checklist.docx) | 
-| 5	| Quality Management	| [Audit Client Continuance Risk Assessment Form.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Client%20Continuance%20Risk%20Assessment%20Form.docx) | 
-| 6	| Quality Management	| [Audit Firm Annual Quality Monitoring Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Quality%20Monitoring%20Report.docx)	| 
-| 7	| Quality Management	| [Audit Firm Annual Partner Performance Review.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Partner%20Performance%20Review.docx) | 
-| 8	| Ethics	| [Quality Control Review Notes.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Quality%20Control%20Review%20Notes.docx) | 
-| 9	| Assurance	| [Audit Working Papers.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Working%20Papers.docx) | 
-| 10	| ESG	| [Sustainability Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Sustainability%20Report.docx) | 
+| Item	| Test Category	| Document Content | Uploaded Document	| 
+|-------|---------------|------------------|-------------------|
+| 1	| Accounting | Financial ledger balances	| [Trial Balance.xlsx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Trial%20Balance.xlsx) |
+| 2	| Audit | Audit compliance findings	| [Compliance Issues.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Compliance%20Issues.docx) | 
+| 3	| Quality Management | Firm-level quality risks	| [Audit Firm Annual Quality Risk Management Record.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Quality%20Risk%20Management%20Record.docx) | 
+| 4	| Quality Management | EQR procedures	| [Engagement Quality Review Checklist.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Engagement%20Quality%20Review%20Checklist.docx) | 
+| 5	| Quality Management | Client acceptance/retention evaluation	| [Audit Client Continuance Risk Assessment Form.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Client%20Continuance%20Risk%20Assessment%20Form.docx) | 
+| 6	| Quality Management | Internal monitoring results	| [Audit Firm Annual Quality Monitoring Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Quality%20Monitoring%20Report.docx)	| 
+| 7	| Quality Management | Partner appraisal	| [Audit Firm Annual Partner Performance Review.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Firm%20Annual%20Partner%20Performance%20Review.docx) | 
+| 8	| Ethics | Ethics / QC review observations	| [Quality Control Review Notes.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Quality%20Control%20Review%20Notes.docx) | 
+| 9	| Assurance | Evidence from specific engagements	| [Audit Working Papers.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Working%20Papers.docx) | 
+| 10	| ESG | ESG disclosures and metrics	| [Sustainability Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Sustainability%20Report.docx) | 
 
 ## ⚖️ Disclaimer
 
