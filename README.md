@@ -259,11 +259,21 @@ The tests cover:
 
 ## ⚖️ Disclaimer
 
+**Testing Sample:**
+
 The financial data, trial balance figures, compliance issues, audit working papers, and all quantitative information presented in this sample are fictitious and created solely for testing and demonstration purposes. They do not represent the actual financial position, performance, or audit findings of China Metal Recycling (Holdings) Limited or any of its director.
 
 However, the company name China Metal Recycling (Holdings) Limited and its chairman name Mr Chun Chi Wai are real, and refer to the actual legal entity and person associated with the historical case for testing Background Check by this app. Any resemblance of the fictitious financial data to actual events or figures is purely coincidental.
 
-This sample is intended exclusively for software testing, academic, or professional development use and should not be relied upon for any investment, legal, or regulatory decision.
+This sample is intended exclusively for software testing, academic, or professional development use and should not be relied upon for any investment, legal, or regulatory decision. References to all accounting and audit standards are for identification only.
+
+**This App:**
+
+This app is for informational and demonstration purposes only. It does not constitute professional accounting, auditing, or legal advice. Always consult a qualified professional before making compliance decisions.
+
+The software is provided “as is” without warranties of accuracy or fitness for a particular purpose. Outputs are based on pre‑defined rules and AI models; professional judgment remains essential.
+
+To the fullest extent permitted by law, the developers are not liable for any damages arising from use of this app.
 
 ## 👤 About the Author
 Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimization | MBA | FCCA | CTA | FTIHK | SAP Financial Accounting (FI) Certified Application Associate | Xero Advisor Certified
