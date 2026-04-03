@@ -139,6 +139,9 @@ The tests cover:
 #### 5. Materiality Setup (benchmark value can be fetched from the uploaded trial balance or financial statements)
 
 <img src="assets/JeffreyWooComplianceHK15.png" alt="JeffreyWooComplianceHK15" width="1200" height="600" />
+
+**Note:** The percentages used for calculating the materiality thresholds (e.g., 0.75% of revenue, 75% of Overall Materiality for Performance Materiality, 5% of Overall Materiality for Clearly Trivial) can be adjusted by the user to suit the engagement’s risk profile and professional judgment.
+
 <img src="assets/JeffreyWooComplianceHK16.png" alt="JeffreyWooComplianceHK16" width="1200" height="600" />
 
 #### 6. Testing Results for Audit (Compliance Issues.docx)
