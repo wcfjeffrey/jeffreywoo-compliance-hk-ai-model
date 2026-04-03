@@ -86,7 +86,14 @@ Examples include: trial balance, audit working papers, compliance issues, qualit
  <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="600" height="600" />
 
 **Note:**  
-The HKICPA Audit File Index (A–Z) is a standardised referencing system recommended by the HKICPA for organising audit working papers and documentation.
+The HKICPA Audit File Index (A–Z) is a standardised referencing system recommended by the Hong Kong Institute of Certified Public Accountants (HKICPA) to help auditors organise audit working papers and documentation consistently. This structured approach ensures compliance with Hong Kong Standards on Auditing (HKSAs) and makes audit files reviewable and comparable across different engagements.
+
+In practice, audit firms often adapt the index to suit specific engagement characteristics, including:
+- Client size and complexity – e.g., SMEs vs. listed companies.
+- Industry‑specific requirements – e.g., banks, insurers, property developers.
+- ERP or financial reporting systems – e.g., SAP, Oracle, Xero.
+
+These adaptations ensure the audit file remains both compliant and practical, reflecting the risk profile and operational reality of each client.
 
 **Usage in this app:**
 Each identified compliance issue is automatically tagged with the relevant alphabetical section (e.g., A – Planning, B – Risk assessment, C – Internal control, D – Substantive procedures, E – Management representations, etc.).
