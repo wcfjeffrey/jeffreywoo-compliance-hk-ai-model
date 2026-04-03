@@ -85,6 +85,19 @@ Examples include: trial balance, audit working papers, compliance issues, qualit
 ## 📁 HKICPA Audit File Index
  <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="600" height="600" />
 
+**Note:** HKICPA Audit File Index (A–Z)
+The HKICPA Audit File Index (A–Z) is a standardised referencing system recommended by the Hong Kong Institute of Certified Public Accountants for organising audit working papers and documentation.
+
+**Usage in this app:**
+Each identified compliance issue is automatically tagged with the relevant alphabetical section (e.g., A – Planning, B – Risk assessment, C – Internal control, D – Substantive procedures, E – Management representations, etc.).
+
+This helps you:
+- Map findings directly to required audit file sections.
+- Structure your working papers in line with HKICPA Practice Review expectations.
+- Quickly locate and cross-reference documentation during internal or regulatory inspections (e.g., Practice Review by the HKICPA).
+
+💡 *Tip: When exporting the Practice Review‑ready file (Step 5), the app will automatically arrange your documentation and findings according to the HKICPA Audit File Index order.*
+
 ## ⚙️ Run Locally
 
 **Prerequisites:**  Node.js
