@@ -210,7 +210,7 @@ The tests cover:
 
 <img src="assets/JeffreyWooComplianceHK40.png" alt="JeffreyWooComplianceHK40" width="1200" height="1200" />
 
-## Input Files of Test Cases
+#### Uploaded Files of Test Cases
 
 | Item	| Test Category	| Uploaded Document	| Document Content | 
 |-------|---------------|-------------------|------------------|
