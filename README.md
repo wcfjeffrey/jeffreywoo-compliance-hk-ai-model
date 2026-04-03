@@ -130,6 +130,7 @@ The tests cover:
 #### 4. Testing Results for Accounting (Trial Balance.xlsx)
 
 <img src="assets/JeffreyWooComplianceHK12.png" alt="JeffreyWooComplianceHK12" width="1200" height="600" />
+
 **Note:** Materiality can be set preliminarily before uploading the trial balance, and later updated automatically by fetching financial data from the uploaded trial balance. The app then uses the final materiality values to check sample sizes and prioritise issues. This two‑step process allows flexibility for planning and accuracy for execution.
 
 <img src="assets/JeffreyWooComplianceHK13.png" alt="JeffreyWooComplianceHK13" width="1200" height="600" />
