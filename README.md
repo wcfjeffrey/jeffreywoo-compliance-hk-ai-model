@@ -136,6 +136,10 @@ The tests cover:
 <img src="assets/JeffreyWooComplianceHK13.png" alt="JeffreyWooComplianceHK13" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK14.png" alt="JeffreyWooComplianceHK14" width="1200" height="1200" />
 
+**Note:** After clicking the "Google Research" button, the app will display the Standard Research Details with hyperlinks to the source documents.
+
+<img src="assets/JeffreyWooComplianceHK14A.png" alt="JeffreyWooComplianceHK14" width="1200" height="1200" />
+
 #### 5. Materiality Setup (benchmark value can be fetched from the uploaded trial balance or financial statements)
 
 <img src="assets/JeffreyWooComplianceHK15.png" alt="JeffreyWooComplianceHK15" width="1200" height="600" />
