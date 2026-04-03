@@ -117,10 +117,10 @@ The tests cover:
 <img src="assets/JeffreyWooComplianceHK6.png" alt="JeffreyWooComplianceHK6" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK7.png" alt="JeffreyWooComplianceHK7" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK8.png" alt="JeffreyWooComplianceHK8" width="1200" height="600" />
-<img src="assets/JeffreyWooComplianceHK9.png" alt="JeffreyWooComplianceHK9" width="1200" height="600" />
 
 #### 2. Setup of New Company
 
+<img src="assets/JeffreyWooComplianceHK9.png" alt="JeffreyWooComplianceHK9" width="1200" height="600" />
 <img src="assets/JeffreyWooComplianceHK10.png" alt="JeffreyWooComplianceHK10" width="1200" height="600" />
 
 #### 3. Background Check Results for the Company and Its Management
