@@ -80,7 +80,7 @@ export default function App() {
       if (analysis.id === analysisId) {
         return {
           ...analysis,
-          findings: analysis.findings.map(finding => {
+          findings: (analysis.findings || []).map(finding => {
             if (finding.id === findingId) {
               const oldIndex = finding.assignedIndex;
               addAuditLog('Manual Override', `Changed index for finding in ${analysis.fileName} from ${oldIndex} to ${newIndex}`, analysis.companyId);
@@ -99,7 +99,7 @@ export default function App() {
       if (analysis.id === analysisId) {
         return {
           ...analysis,
-          findings: analysis.findings.map(finding => {
+          findings: (analysis.findings || []).map(finding => {
             if (finding.id === findingId) {
               addAuditLog('Finding Status Update', `Changed status for finding in ${analysis.fileName} to ${status}`, analysis.companyId);
               return { ...finding, status };
@@ -161,7 +161,7 @@ export default function App() {
     addAuditLog('Reprocess Started', 'Initiating automated re-processing of all historical findings to assign HKICPA index sections.');
     
     const updatedHistory = await Promise.all(analysisHistory.map(async (analysis) => {
-      const updatedFindings = await Promise.all(analysis.findings.map(async (finding) => {
+      const updatedFindings = await Promise.all((analysis.findings || []).map(async (finding) => {
         if (!finding.assignedIndex || finding.assignedIndex === 'X') {
           const { assignedIndex, mappingRationale } = await reassignIndex(finding);
           return { ...finding, assignedIndex, mappingRationale };
@@ -414,6 +414,7 @@ export default function App() {
                   analyses={selectedCompanyId === 'all' ? analysisHistory : analysisHistory.filter(h => h.companyId === selectedCompanyId)}
                   auditLogs={selectedCompanyId === 'all' ? auditLogs : auditLogs.filter(l => l.companyId === selectedCompanyId)}
                   materiality={selectedCompany?.materiality}
+                  backgroundCheck={backgroundChecks.find(bc => bc.companyId === selectedCompanyId)}
                 />
               )}
               {currentView === 'reports' && (

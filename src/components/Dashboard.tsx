@@ -148,14 +148,14 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
     },
     { 
       label: 'Critical/High Risk', 
-      value: history.flatMap(h => h.findings).filter(f => f.riskScore?.priority === 'Critical' || f.riskScore?.priority === 'High').length, 
+      value: history.flatMap(h => h.findings || []).filter(f => f.riskScore?.priority === 'Critical' || f.riskScore?.priority === 'High').length, 
       icon: ShieldAlert, 
       color: 'text-red-600', 
       bg: 'bg-red-50' 
     },
     { 
       label: 'Sampling Deficiencies', 
-      value: history.flatMap(h => h.findings).filter(f => f.samplingAnalysis?.sufficiencyStatus === 'Insufficient').length, 
+      value: history.flatMap(h => h.findings || []).filter(f => f.samplingAnalysis?.sufficiencyStatus === 'Insufficient').length, 
       icon: BarChart3, 
       color: 'text-orange-600', 
       bg: 'bg-orange-50' 
@@ -163,7 +163,7 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
     { 
       label: 'Misstatement Exposure', 
       value: new Intl.NumberFormat('en-HK', { style: 'currency', currency: 'HKD', maximumFractionDigits: 0 }).format(
-        history.flatMap(h => h.findings).reduce((acc, f) => acc + (f.misstatementAmount || 0), 0)
+        history.flatMap(h => h.findings || []).reduce((acc, f) => acc + (f.misstatementAmount || 0), 0)
       ), 
       icon: Target, 
       color: 'text-purple-600', 
@@ -190,7 +190,7 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
     const activeIssuesCount = history
       .filter(h => h.category === cat)
       .reduce((acc, h) => {
-        const activeFindings = h.findings.filter(f => f.status !== 'Resolved' && f.status !== 'Closed');
+        const activeFindings = (h.findings || []).filter(f => f.status !== 'Resolved' && f.status !== 'Closed');
         return acc + activeFindings.length;
       }, 0);
     
@@ -209,7 +209,7 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
 
   // Group findings by index for File Index View
   const findingsByIndex = history.reduce((acc, analysis) => {
-    analysis.findings.forEach(finding => {
+    (analysis.findings || []).forEach(finding => {
       const index = finding.assignedIndex || 'X'; // Default to X if missing
       if (!acc[index]) acc[index] = [];
       acc[index].push({ ...finding, analysisId: analysis.id, analysisFileName: analysis.fileName, timestamp: analysis.timestamp });
@@ -400,7 +400,7 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
                     <span className="text-[10px] text-slate-400 italic">Based on Performance Materiality</span>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    {history.flatMap(h => h.findings)
+                    {history.flatMap(h => h.findings || [])
                       .filter(f => f.samplingAnalysis)
                       .slice(0, 3)
                       .map((f, i) => (
@@ -424,7 +424,7 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
                           </div>
                         </div>
                       ))}
-                    {history.flatMap(h => h.findings).filter(f => f.samplingAnalysis).length === 0 && (
+                    {history.flatMap(h => h.findings || []).filter(f => f.samplingAnalysis).length === 0 && (
                       <div className="col-span-3 text-center py-2 text-xs text-slate-400 italic">
                         No sampling data identified in recent analyses.
                       </div>
@@ -440,7 +440,7 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
                 </div>
                 <div className="space-y-3">
                   {['Critical', 'High', 'Medium', 'Low'].map(priority => {
-                    const count = history.flatMap(h => h.findings).filter(f => (f.riskScore?.priority || 'Low') === priority).length;
+                    const count = history.flatMap(h => h.findings || []).filter(f => (f.riskScore?.priority || 'Low') === priority).length;
                     return (
                       <div key={priority} className="flex items-center justify-between">
                         <span className={cn(
@@ -584,7 +584,7 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
                   <div className="space-y-4">
                     <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider">Detailed Search Results</h4>
                     <div className="grid grid-cols-1 gap-4">
-                      {backgroundCheck.findings.map((finding, idx) => (
+                      {(backgroundCheck.findings || []).map((finding, idx) => (
                         <div key={idx} className="p-4 bg-white border border-slate-100 rounded-xl hover:shadow-md transition-shadow">
                           <div className="flex justify-between items-start mb-2">
                             <div className="flex items-center gap-2">
@@ -620,6 +620,12 @@ export default function Dashboard({ history, selectedCompany, backgroundCheck, o
                           {finding.date && <span className="text-[10px] text-slate-400 mt-2 block italic">{finding.date}</span>}
                         </div>
                       ))}
+                      {(!backgroundCheck.findings || backgroundCheck.findings.length === 0) && (
+                        <div className="text-center py-8 bg-slate-50 rounded-xl border border-dashed border-slate-200">
+                          <Search className="mx-auto text-slate-300 mb-2" size={24} />
+                          <p className="text-sm text-slate-500">No specific findings identified for this company.</p>
+                        </div>
+                      )}
                     </div>
                   </div>
 

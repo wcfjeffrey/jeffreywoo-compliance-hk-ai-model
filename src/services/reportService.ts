@@ -1,7 +1,269 @@
-import { Document, Packer, Paragraph, TextRun, HeadingLevel, Table, TableRow, TableCell, WidthType, AlignmentType, BorderStyle } from "docx";
+import { Document, Packer, Paragraph, TextRun, HeadingLevel, Table, TableRow, TableCell, WidthType, AlignmentType, BorderStyle, VerticalAlign } from "docx";
 import { saveAs } from "file-saver";
-import { AnalysisResult, Company, BackgroundCheckResult, AUDIT_FILE_INDEX, AuditIndexSummary } from "../types";
+import { AnalysisResult, Company, BackgroundCheckResult, AUDIT_FILE_INDEX, AuditIndexSummary, AuditLogEntry, MaterialitySettings, Finding } from "../types";
 import { IRD_CODE_LABELS } from "../lib/companyUtils";
+
+export async function exportRegulatoryPackageToWord(
+  company: Company,
+  findings: Finding[],
+  auditLogs: AuditLogEntry[],
+  materiality?: MaterialitySettings,
+  backgroundCheck?: BackgroundCheckResult
+) {
+  const findingsByIndex = findings.reduce((acc, finding) => {
+    const idx = finding.assignedIndex || 'X';
+    if (!acc[idx]) acc[idx] = [];
+    acc[idx].push(finding);
+    return acc;
+  }, {} as Record<string, Finding[]>);
+
+  const doc = new Document({
+    sections: [
+      {
+        properties: {},
+        children: [
+          // Title Page
+          new Paragraph({
+            text: "HKICPA Practice Review Readiness Package",
+            heading: HeadingLevel.HEADING_1,
+            alignment: AlignmentType.CENTER,
+            spacing: { before: 2000, after: 400 },
+          }),
+          new Paragraph({
+            text: `Engagement: ${company.name}`,
+            heading: HeadingLevel.HEADING_2,
+            alignment: AlignmentType.CENTER,
+            spacing: { after: 200 },
+          }),
+          new Paragraph({
+            text: `Financial Year End: ${company.yearEnd}`,
+            alignment: AlignmentType.CENTER,
+            spacing: { after: 200 },
+          }),
+          new Paragraph({
+            text: `Generated on: ${new Date().toLocaleString()}`,
+            alignment: AlignmentType.CENTER,
+            spacing: { after: 4000 },
+          }),
+
+          // 1. Company Overview
+          new Paragraph({
+            text: "1. Company Overview",
+            heading: HeadingLevel.HEADING_1,
+            spacing: { before: 400, after: 200 },
+          }),
+          new Table({
+            width: { size: 100, type: WidthType.PERCENTAGE },
+            rows: [
+              new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Company Name", bold: true })] })] }),
+                  new TableCell({ children: [new Paragraph(company.name)] }),
+                ],
+              }),
+              new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Registration No.", bold: true })] })] }),
+                  new TableCell({ children: [new Paragraph(company.registrationNumber || "N/A")] }),
+                ],
+              }),
+              new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "IRD Code", bold: true })] })] }),
+                  new TableCell({ children: [new Paragraph(`${company.irdCode} (${IRD_CODE_LABELS[company.irdCode]})`)] }),
+                ],
+              }),
+              new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Industry", bold: true })] })] }),
+                  new TableCell({ children: [new Paragraph(company.industry || "N/A")] }),
+                ],
+              }),
+            ],
+          }),
+
+          // 2. Background Check Risk Summary
+          new Paragraph({
+            text: "2. Background Check Risk Summary",
+            heading: HeadingLevel.HEADING_1,
+            spacing: { before: 400, after: 200 },
+          }),
+          ...(backgroundCheck ? [
+            new Paragraph({
+              children: [
+                new TextRun({ text: "Risk Rating: ", bold: true }),
+                new TextRun({ 
+                  text: backgroundCheck.riskRating, 
+                  color: backgroundCheck.riskRating === 'Critical' ? "FF0000" : 
+                         backgroundCheck.riskRating === 'High' ? "FF4500" : 
+                         backgroundCheck.riskRating === 'Medium' ? "FFA500" : "008000",
+                  bold: true 
+                }),
+              ],
+              spacing: { after: 200 },
+            }),
+            new Paragraph({
+              children: [
+                new TextRun({ text: "Summary: ", bold: true }),
+                new TextRun({ text: backgroundCheck.summary }),
+              ],
+              spacing: { after: 200 },
+            }),
+            new Paragraph({
+              children: [new TextRun({ text: "Key Findings:", bold: true })],
+              spacing: { before: 200, after: 100 },
+            }),
+            ...backgroundCheck.findings.map(f => new Paragraph({
+              children: [
+                new TextRun({ text: `• [${f.classification}] ${f.title}: `, bold: true }),
+                new TextRun({ text: f.snippet }),
+              ],
+              spacing: { after: 100 },
+              indent: { left: 240 },
+            }))
+          ] : [new Paragraph("No background check data available for this engagement.")]),
+
+          // 3. Materiality Assessment
+          new Paragraph({
+            text: "3. Materiality Assessment",
+            heading: HeadingLevel.HEADING_1,
+            spacing: { before: 400, after: 200 },
+          }),
+          ...(materiality ? [
+            new Table({
+              width: { size: 100, type: WidthType.PERCENTAGE },
+              rows: [
+                new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Benchmark", bold: true })] })] }),
+                    new TableCell({ children: [new Paragraph(materiality.benchmark)] }),
+                  ],
+                }),
+                new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Benchmark Value", bold: true })] })] }),
+                    new TableCell({ children: [new Paragraph(new Intl.NumberFormat('en-HK', { style: 'currency', currency: 'HKD' }).format(materiality.benchmarkValue))] }),
+                  ],
+                }),
+                new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Overall Materiality", bold: true })] })] }),
+                    new TableCell({ children: [new Paragraph(new Intl.NumberFormat('en-HK', { style: 'currency', currency: 'HKD' }).format(materiality.overallMateriality))] }),
+                  ],
+                }),
+                new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Performance Materiality", bold: true })] })] }),
+                    new TableCell({ children: [new Paragraph(new Intl.NumberFormat('en-HK', { style: 'currency', currency: 'HKD' }).format(materiality.performanceMateriality))] }),
+                  ],
+                }),
+                new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Clearly Trivial Threshold", bold: true })] })] }),
+                    new TableCell({ children: [new Paragraph(new Intl.NumberFormat('en-HK', { style: 'currency', currency: 'HKD' }).format(materiality.clearlyTrivialThreshold))] }),
+                  ],
+                }),
+              ],
+            })
+          ] : [new Paragraph("Materiality not yet determined for this engagement.")]),
+
+          // 4. Risk Assessment & Findings
+          new Paragraph({
+            text: "4. Risk Assessment & Audit Findings",
+            heading: HeadingLevel.HEADING_1,
+            spacing: { before: 400, after: 200 },
+          }),
+          ...Object.entries(findingsByIndex).sort().flatMap(([idx, sectionFindings]) => [
+            new Paragraph({
+              text: `Section ${idx}: ${AUDIT_FILE_INDEX[idx] || 'Other'}`,
+              heading: HeadingLevel.HEADING_2,
+              spacing: { before: 200, after: 100 },
+            }),
+            new Table({
+              width: { size: 100, type: WidthType.PERCENTAGE },
+              rows: [
+                new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Ref", bold: true })] })], width: { size: 15, type: WidthType.PERCENTAGE } }),
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Severity", bold: true })] })], width: { size: 15, type: WidthType.PERCENTAGE } }),
+                    new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Description & Evidence", bold: true })] })], width: { size: 70, type: WidthType.PERCENTAGE } }),
+                  ],
+                }),
+                ...sectionFindings.map(f => new TableRow({
+                  children: [
+                    new TableCell({ children: [new Paragraph(f.standardRef)] }),
+                    new TableCell({ children: [new Paragraph({ 
+                      children: [new TextRun({ 
+                        text: f.severity, 
+                        color: f.severity === 'Critical' ? "FF0000" : f.severity === 'High' ? "FF4500" : "000000",
+                        bold: f.severity === 'Critical' || f.severity === 'High'
+                      })] 
+                    })] }),
+                    new TableCell({ children: [
+                      new Paragraph({ children: [new TextRun({ text: f.description, bold: true })] }),
+                      new Paragraph({ text: `Evidence: ${f.evidence}`, spacing: { before: 100 } }),
+                      ...(f.suggestedProcedures && f.suggestedProcedures.length > 0 ? [
+                        new Paragraph({ children: [new TextRun({ text: "Suggested Procedures:", bold: true })], spacing: { before: 100 } }),
+                        ...f.suggestedProcedures.map(p => new Paragraph({ text: `• [${p.assertion}] ${p.description}`, indent: { left: 240 } }))
+                      ] : [])
+                    ] }),
+                  ],
+                })),
+              ],
+            }),
+          ]),
+
+          // 5. Audit Trail
+          new Paragraph({
+            text: "5. Audit Trail & Timeline",
+            heading: HeadingLevel.HEADING_1,
+            spacing: { before: 400, after: 200 },
+          }),
+          new Table({
+            width: { size: 100, type: WidthType.PERCENTAGE },
+            rows: [
+              new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Timestamp", bold: true })] })], width: { size: 25, type: WidthType.PERCENTAGE } }),
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "User", bold: true })] })], width: { size: 15, type: WidthType.PERCENTAGE } }),
+                  new TableCell({ children: [new Paragraph({ children: [new TextRun({ text: "Action", bold: true })] })], width: { size: 60, type: WidthType.PERCENTAGE } }),
+                ],
+              }),
+              ...auditLogs.map(log => new TableRow({
+                children: [
+                  new TableCell({ children: [new Paragraph(new Date(log.timestamp).toLocaleString())] }),
+                  new TableCell({ children: [new Paragraph(log.user)] }),
+                  new TableCell({ children: [
+                    new Paragraph({ children: [new TextRun({ text: log.action, bold: true })] }),
+                    new Paragraph({ children: [new TextRun({ text: log.details, size: 18 })] })
+                  ] }),
+                ],
+              })),
+            ],
+          }),
+
+          // Footer
+          new Paragraph({
+            children: [
+              new TextRun({
+                text: "CONFIDENTIAL - FOR REGULATORY INSPECTION PURPOSES ONLY",
+                bold: true,
+                color: "808080",
+                size: 16,
+              })
+            ],
+            spacing: { before: 800 },
+            alignment: AlignmentType.CENTER,
+          }),
+        ],
+      },
+    ],
+  });
+
+  const blob = await Packer.toBlob(doc);
+  const fileName = `HKICPA_Inspection_Package_${company.name.replace(/\s+/g, '_')}_${new Date().toISOString().split('T')[0]}.docx`;
+  saveAs(blob, fileName);
+}
 
 export async function exportDashboardToWord(
   company: Company | undefined,
@@ -9,7 +271,7 @@ export async function exportDashboardToWord(
   backgroundCheck: BackgroundCheckResult | undefined
 ) {
   // Group findings by index
-  const allFindings = history.flatMap(h => h.findings.map(f => ({ ...f, fileName: h.fileName, timestamp: h.timestamp })));
+  const allFindings = history.flatMap(h => (h.findings || []).map(f => ({ ...f, fileName: h.fileName, timestamp: h.timestamp })));
   const findingsByIndex = allFindings.reduce((acc, finding) => {
     const idx = finding.assignedIndex || 'X';
     if (!acc[idx]) acc[idx] = [];

@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
-import { Company, AnalysisResult, Finding, AuditLogEntry, MaterialitySettings } from '../types';
+import { Company, AnalysisResult, Finding, AuditLogEntry, MaterialitySettings, BackgroundCheckResult } from '../types';
 import { FileDown, ShieldCheck, Filter, Search, ChevronRight, FileText, CheckCircle2, AlertCircle, Clock, User, Building2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { cn } from '../lib/utils';
+
+import { exportRegulatoryPackageToWord } from '../services/reportService';
 
 interface RegulatoryInspectionProps {
   company: Company;
   analyses: AnalysisResult[];
   auditLogs: AuditLogEntry[];
   materiality?: MaterialitySettings;
+  backgroundCheck?: BackgroundCheckResult;
 }
 
-export const RegulatoryInspection: React.FC<RegulatoryInspectionProps> = ({ company, analyses, auditLogs, materiality }) => {
+export const RegulatoryInspection: React.FC<RegulatoryInspectionProps> = ({ company, analyses, auditLogs, materiality, backgroundCheck }) => {
   const [filter, setFilter] = useState({
     category: 'All',
     priority: 'All',
@@ -20,57 +23,22 @@ export const RegulatoryInspection: React.FC<RegulatoryInspectionProps> = ({ comp
 
   const [generating, setGenerating] = useState(false);
 
-  const filteredFindings = analyses.flatMap(a => a.findings).filter(f => {
-    const matchesCategory = filter.category === 'All' || analyses.find(a => a.findings.includes(f))?.category === filter.category;
+  const filteredFindings = analyses.flatMap(a => a.findings || []).filter(f => {
+    const matchesCategory = filter.category === 'All' || analyses.find(a => (a.findings || []).includes(f))?.category === filter.category;
     const matchesPriority = filter.priority === 'All' || f.riskScore?.priority === filter.priority;
     const matchesStandard = !filter.standard || f.standardRef.toLowerCase().includes(filter.standard.toLowerCase());
     return matchesCategory && matchesPriority && matchesStandard;
   });
 
-  const handleGenerateReport = () => {
+  const handleGenerateReport = async () => {
     setGenerating(true);
-    
-    // Simulate report generation
-    setTimeout(() => {
-      const reportData = {
-        company: {
-          name: company.name,
-          registrationNumber: company.registrationNumber,
-          industry: company.industry,
-          yearEnd: company.yearEnd,
-          irdCode: company.irdCode,
-        },
-        materiality,
-        findings: filteredFindings.map(f => ({
-          standard: f.standardRef,
-          description: f.description,
-          evidence: f.evidence,
-          riskScore: f.riskScore,
-          procedures: f.suggestedProcedures,
-          assignedIndex: f.assignedIndex,
-        })),
-        auditTrail: auditLogs.map(l => ({
-          timestamp: l.timestamp,
-          action: l.action,
-          details: l.details,
-          user: l.user,
-        })),
-        generatedAt: new Date().toISOString(),
-        reportType: "HKICPA Practice Review Readiness Package"
-      };
-
-      const blob = new Blob([JSON.stringify(reportData, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = `Regulatory_Inspection_Package_${company.name.replace(/\s+/g, '_')}_${new Date().toISOString().split('T')[0]}.json`;
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-
+    try {
+      await exportRegulatoryPackageToWord(company, filteredFindings, auditLogs, materiality, backgroundCheck);
+    } catch (error) {
+      console.error("Failed to generate report:", error);
+    } finally {
       setGenerating(false);
-    }, 2000);
+    }
   };
 
   const formatCurrency = (value: number) => {
@@ -126,7 +94,7 @@ export const RegulatoryInspection: React.FC<RegulatoryInspectionProps> = ({ comp
               )}
             >
               {generating ? <Clock className="w-5 h-5 animate-spin" /> : <FileDown className="w-5 h-5" />}
-              {generating ? 'Generating Package...' : 'One-Click Consolidated PDF'}
+              {generating ? 'Generating Package...' : 'Generate Audit Package (Word)'}
             </button>
             <div className="text-xs text-indigo-200/50 max-w-[300px]">
               Generates a full audit file package including materiality, risk assessments, and audit trail for HKICPA inspection.

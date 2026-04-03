@@ -362,19 +362,19 @@ Return the result strictly as a JSON object with the following structure:
 }`;
 
     const response = await withRetry(() => ai.models.generateContent({
-      model: "gemini-3.1-pro-preview",
+      model: "gemini-3-flash-preview",
       contents: prompt,
       config: {
         tools: [{ googleSearch: {} }],
-        responseMimeType: "application/json",
+        // Removing responseMimeType when using googleSearch to avoid potential conflicts
       },
     }));
 
     let text = response.text || "{}";
-    if (text.includes("```json")) {
-      text = text.split("```json")[1].split("```")[0].trim();
-    } else if (text.includes("```")) {
-      text = text.split("```")[1].split("```")[0].trim();
+    // Robust JSON extraction
+    const jsonMatch = text.match(/\{[\s\S]*\}/);
+    if (jsonMatch) {
+      text = jsonMatch[0];
     }
 
     const data = JSON.parse(text);
@@ -383,7 +383,12 @@ Return the result strictly as a JSON object with the following structure:
       id: Math.random().toString(36).substr(2, 9),
       companyId: company.id,
       timestamp: new Date().toISOString(),
-      ...data
+      summary: data.summary || "No summary provided.",
+      adverseCount: data.adverseCount || 0,
+      neutralCount: data.neutralCount || 0,
+      positiveCount: data.positiveCount || 0,
+      riskRating: data.riskRating || "Low",
+      findings: data.findings || []
     };
   } catch (error) {
     console.error("Background Check Error:", error);
