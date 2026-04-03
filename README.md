@@ -102,7 +102,7 @@ This helps you:
 - Structure your working papers in line with HKICPA Practice Review expectations.
 - Quickly locate and cross-reference documentation during internal or regulatory inspections (e.g., Practice Review by the HKICPA).
 
-*Tip: When exporting the Practice Review‑ready file (Step 5), the app will automatically arrange your documentation and findings according to the HKICPA Audit File Index order.*
+*Tip: When exporting the Practice Review‑ready file, the app will automatically arrange your documentation and findings according to the HKICPA Audit File Index order.*
 
 ## ⚙️ Run Locally
 
