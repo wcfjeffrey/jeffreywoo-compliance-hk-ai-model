@@ -273,7 +273,7 @@ This sample is intended exclusively for software testing, academic, or professio
 
 This app is for informational and demonstration purposes only. It does not constitute professional accounting, auditing, or legal advice. Always consult a qualified professional before making compliance decisions.
 
-The software is provided “as is” without warranties of accuracy or fitness for a particular purpose. Outputs are based on pre‑defined rules and AI models; professional judgment remains essential.
+The app is provided “as is” without warranties of accuracy or fitness for a particular purpose. Outputs are based on pre‑defined rules and AI models; professional judgment remains essential.
 
 To the fullest extent permitted by law, the developer of this app is not liable for any damages arising from use of this app.
 
