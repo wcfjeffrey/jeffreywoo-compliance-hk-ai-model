@@ -257,6 +257,8 @@ The tests cover:
 | 9	| Assurance | [Audit Working Papers.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Audit%20Working%20Papers.docx) | Evidence from specific engagements |
 | 10	| ESG | [Sustainability Report.docx](https://github.com/wcfjeffrey/jeffreywoo-compliance-hk-ai-model/blob/main/uploads/Sustainability%20Report.docx) | ESG disclosures and metrics |
 
+**Note:** The Trial Balance file provided in this test package contains additional audit sample fields (e.g., population size, sample size tested) to facilitate testing of the HKSA 530 audit sampling engine.
+
 ## ⚖️ Disclaimer
 
 **Testing Sample:**
