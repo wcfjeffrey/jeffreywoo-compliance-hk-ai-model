@@ -259,6 +259,17 @@ The tests cover:
 
 **Note:** Trial Balance.xlsx in this test package contains additional audit samples (e.g., sampling method, sample size tested) to facilitate testing of the HKSA 530 audit sampling engine.
 
+## 🔒 Local Deployment Option (Planned / Configurable)
+
+This application is designed to support local deployment for organisations that require complete control over sensitive financial and audit data.
+
+While the current version includes optional cloud‑based AI features (e.g., Google Gemini API), the architecture allows for:
+- ✅ Local installation on your own servers or workstations
+- ✅ Offline operation by replacing cloud APIs with local rule‑based engines
+- ✅ Full data privacy – no client data sent to external services
+
+**Current status:** Local deployment is a supported configuration. For organisations with strict data residency or confidentiality requirements, please contact me for setup guidance.
+
 ## ⚖️ Disclaimer
 
 **Testing Sample:**
