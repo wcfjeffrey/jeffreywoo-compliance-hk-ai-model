@@ -259,15 +259,15 @@ The tests cover:
 
 **Note:**
 
-Trial Balance.xlsx in this test package contains additional audit samples (e.g., sampling method, sample size tested) to facilitate testing of the HKSA 530 audit sampling engine.
+(1) Trial Balance.xlsx in this test package contains additional audit samples (e.g., sampling method, sample size tested) to facilitate testing of the HKSA 530 audit sampling engine.
 
-For testing the compliance monitoring features, you can upload either:
+(2) For testing the compliance monitoring features, you can upload either:
 - **Trial Balance** – Recommended for testing materiality calculations, audit sampling, and detailed account‑level assertions
 - **Financial Statements** – Including income statement, balance sheet, cash flow statement, and notes to the accounts
 
 The app will automatically extract relevant financial data from both formats to perform compliance checks against HKFRS, HKAS, HKSA, and other frameworks.
 
-*Tip:* For the most comprehensive testing (especially materiality‑driven sample size calculations and assertion‑based evidence tracking), the Trial Balance format provides richer account‑level detail. Financial Statements are suitable for higher‑level disclosure and presentation checks.
+*Tip: For the most comprehensive testing (especially materiality‑driven sample size calculations and assertion‑based evidence tracking), the Trial Balance format provides richer account‑level detail; whereas Financial Statements are suitable for higher‑level disclosure and presentation checks.*
 
 ## 🔒 Local Deployment Option (Planned / Configurable)
 
