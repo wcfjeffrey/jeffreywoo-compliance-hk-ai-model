@@ -263,7 +263,7 @@ The tests cover:
 
 This application is designed to support local deployment for organisations that require complete control over sensitive financial and audit data.
 
-While the current version includes optional cloud‑based AI features (e.g., Google Gemini API), the architecture allows for:
+While the current version includes optional cloud‑based AI features (e.g., Gemini API), the architecture allows for:
 - ✅ Local installation on your own servers or workstations
 - ✅ Offline operation by replacing cloud APIs with local rule‑based engines
 - ✅ Full data privacy – no client data sent to external services
