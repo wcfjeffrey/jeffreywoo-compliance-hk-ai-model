@@ -96,7 +96,7 @@ In practice, audit firms often adapt the index to suit specific engagement chara
 These adaptations ensure the audit file remains both compliant and practical, reflecting the risk profile and operational reality of each client.
 
 **Usage in this app:**
-Each identified compliance issue is automatically tagged with the relevant alphabetical section (e.g., A – Planning, B – Risk assessment, C – Internal control, D – Substantive procedures, E – Management representations, etc.).
+Each identified compliance issue is automatically tagged with the relevant alphabetical section.
 
 This helps you:
 - Map findings directly to required audit file sections.
