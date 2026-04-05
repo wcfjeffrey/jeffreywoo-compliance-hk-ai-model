@@ -23,7 +23,7 @@
 - 🌱 **ESG Assurance Readiness** – Reviews sustainability disclosures against emerging standards and HKICPA guidance. Flags unsupported claims (e.g., “carbon neutral” without evidence).
 - 🏢 **Multi‑Company & IRD Support** – Handles multiple clients, each with its own data. Classifies year‑ends using Hong Kong Inland Revenue Department (IRD) Accounting Date Codes (N / D / M).
 
-### 🗓️ IRD Accounting Date Codes
+## 🗓️ IRD Accounting Date Codes
 - **N code:** 1 April to 30 November → filing due within 1 month of issue, no extension allowed.
 - **D code:** 1 December to 31 December → filing due within 1 month of issue, extension available until August 15.
 - **M code profit cases:** 1 January to 31 March → filing due within 1 month of issue, extension available until November 15
@@ -53,12 +53,13 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 | **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
 
 ## ⭐ Finance & Audit Skills Strengthened
-- Applying materiality (HKSA 320) in an automated risk triage engine.
-- Implementing audit sampling (HKSA 530) calculations driven by performance materiality.
-- Building a regulatory inspection export that mirrors HKICPA Practice Review structure.
-- Integrating ethics & independence checks into a multi‑company workflow.
-- Parsing structured (ERP, Excel) and unstructured (audit reports, disclosures) data.
-- Designing dashboards and audit trails suitable for external auditor and regulator review.
+- Dynamic Materiality Framework (HKSA 320) – Engineered an automated materiality engine that calculates Overall Materiality, Performance Materiality, and Clearly Trivial thresholds using user‑selected benchmarks (Profit Before Tax, Total Revenue, Total Assets, Net Assets or custom benchmarks). Applied professional judgment to drive risk triage and compliance prioritisation.
+- Audit Sampling Automation (HKSA 530) – Implemented audit sampling methodologies, with sample size calculations driven by Performance Materiality, and automatically flags insufficient sample sizes.
+- Quality Management System (HKSQM 1) – Designed support for all eight components of firm‑level quality management, including risk assessment, policy libraries, monitoring and remediation tracking.
+- Engagement Quality Review (HKSQM 2) – Designed EQR assignment dashboards/workflows and comprehensive review checklists, ensuring compliance with quality management requirements for listed entity audits.
+- Regulatory Inspection Readiness – Developed a one‑click export feature that packages the entire audit file in HKICPA Practice Review structure, with filtering by standard (e.g., HKSA 230, HKFRS 16) and full audit trail logging suitable for external auditor and regulator review.
+- Ethics & Independence Integration – Embedded HKICPA Code of Ethics checks into multi‑company workflows, including confidentiality breach detection, independence threat identification, and non‑audit service conflict flagging.
+- Multi‑Format Data Ingestion – Built parsers for structured data (ERP exports, SAP, Oracle, Excel trial balances) and unstructured data (working papers, ESG disclosures, sustainability reports).
 
 ## 🤖 Tech Stack
 - **Language** – TypeScript, HTML
