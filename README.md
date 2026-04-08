@@ -127,6 +127,7 @@ The tests cover:
 - Materiality calculation & risk triage (HKSA 320)
 - Audit sampling size engine (HKSA 530)
 - Quality Management (HKSQM 1, HKSQM 2)
+- Assurance Engagements on Greenhouse Gas Statements (HKSAE 3410)
 - Assurance & Related Services (HKSRS 4400)
 - Ethics & Independence (HKICPA Code of Ethics)
 - ESG / Sustainability Disclosures
