@@ -48,18 +48,18 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 | **Accounting**	| HKFRS, HKAS (recognition, measurement, disclosure)| 
 | **Auditing**	| HKSA 230, 320, 500, 505, 530, 550, 570, etc.| 
 | **Quality Management**	| HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)| 
-| **Assurance & Related Services**	| HKSAEs, HKSRS 4400 (agreed‑upon procedures)| 
+| **Assurance & Related Services**	| HKSAE 3000, 3402, 3410, HKSRS 4400 (agreed‑upon procedures)| 
 | **Ethics**	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
 | **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
 
 ## ⭐ Finance & Audit Skills Strengthened
-- **Dynamic Materiality Framework (HKSA 320)** – Engineered an automated materiality engine that calculates Overall Materiality, Performance Materiality, and Clearly Trivial thresholds using user‑selected benchmarks (Profit Before Tax, Total Revenue, Total Assets, Net Assets or custom benchmarks). Applied professional judgment to drive risk triage and compliance prioritisation.
-- **Audit Sampling Automation (HKSA 530)** – Implemented audit sampling methodologies, with sample size calculations driven by Performance Materiality, and automatically flags insufficient sample sizes.
-- **Quality Management System (HKSQM 1)** – Designed support for all 8 components of firm‑level quality management, including Risk Assessment Process, Governance and Leadership, Relevant Ethical Requirements, Acceptance and Continuance, Engagement Performance, Resources, Information and Communication, Monitoring and Remediation Process.
-- **Engagement Quality Review (HKSQM 2)** – Designed EQR assignment dashboards/workflows and comprehensive review checklists, ensuring compliance with quality management requirements for listed entity audits.
-- **Regulatory Inspection Readiness** – Developed a one‑click export feature that packages the entire audit file in HKICPA Practice Review structure, with filtering by standard (e.g., HKSA 230, HKFRS 16) and full audit trail logging suitable for external auditor and regulator review.
-- **Ethics & Independence Integration** – Embedded HKICPA Code of Ethics checks into multi‑company workflows, including confidentiality breach detection, independence threat identification, and non‑audit service conflict flagging.
-- **Multi‑Format Data Ingestion** – Built parsers for structured data (ERP exports, SAP, Oracle, Excel trial balances) and unstructured data (working papers, ESG disclosures, sustainability reports).
+- **Dynamic Materiality Framework (HKSA 320; HKSAE 3000 Revised)** – Engineered an automated materiality engine that calculates Overall Materiality, Performance Materiality, and Clearly Trivial thresholds using user‑selected benchmarks (Profit Before Tax, Total Revenue, Total Assets, Net Assets or custom benchmarks). Applied professional judgment to drive risk triage and compliance prioritisation.
+- **Audit Sampling Automation (HKSA 530; HKSAE 3000 Revised)** – Implemented audit sampling methodologies with sample size calculations driven by Performance Materiality, automatically flagging insufficient sample sizes in assurance engagements.
+- **Quality Management System (HKSQM 1; HKSAE 3402)** – Designed support for all 8 components of firm‑level quality management, including Risk Assessment Process, Governance and Leadership, Relevant Ethical Requirements, Acceptance and Continuance, Engagement Performance, Resources, Information and Communication, Monitoring and Remediation Process.
+- **Engagement Quality Review (HKSQM 2; HKSAE 3000 Revised)** – Built EQR assignment dashboards/workflows and comprehensive review checklists, ensuring compliance with quality management requirements for listed entity audits and assurance engagements.
+- **Regulatory Inspection Readiness (HKSAE 3000; HKSAE 3402)** – Developed a one‑click export feature that packages the entire audit file in HKICPA Practice Review structure, with filtering by standard (e.g., HKSA 230, HKFRS 16) and full audit trail logging suitable for external auditor and regulator review.
+- **Ethics & Independence Integration (HKSAE 3000; HKSAE 3402)** – Embedded HKICPA Code of Ethics checks into multi‑company workflows, including confidentiality breach detection, independence threat identification, and non‑audit service conflict flagging.
+- **Multi‑Format Data Ingestion (HKSAE 3000; HKSAE 3410)** – Built parsers for structured data (ERP exports, SAP, Oracle, Excel trial balances) and unstructured data (working papers, ESG disclosures, sustainability reports).
 
 ## 🤖 Tech Stack
 - **Language** – TypeScript, HTML
