@@ -12,10 +12,10 @@
 
 > **Not your typical compliance checklist tool!**
 
-**JeffreyWoo HK Compliance** is an AI-powered compliance monitoring framework that automatically detects anomalies and potential non-compliance with Hong Kong accounting and auditing frameworks. It helps audit firms, accounting managers, and compliance officers catch issues early, reduce risk, and prepare for regulatory inspections. It automates anomaly detection across HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAE, HKSRS, and Environmental, Social and Governance (ESG) sustainability disclosures.
+**JeffreyWoo HK Compliance** is an AI-powered compliance monitoring framework that automatically detects anomalies and potential non-compliance with Hong Kong accounting and auditing frameworks. It helps audit firms, accounting managers, and compliance officers catch issues early, reduce risk, and prepare for regulatory inspections. It automates anomaly detection across HKFRS, HKAS, HKSA, HKSQM, HKSAE, HKSRS, HKICPA Code of Ethics, and Environmental, Social and Governance (ESG) sustainability disclosures.
 
 ## ✨ What It Does
-- 📑 **Multi‑Framework Compliance** – Automatically checks financial statements, audit working papers, and Environmental, Social and Governance (ESG) disclosures against HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAE, HKSRS, and ESG guidance.
+- 📑 **Multi‑Framework Compliance** – Automatically checks financial statements, audit working papers, and Environmental, Social and Governance (ESG) disclosures against HKFRS, HKAS, HKSA, HKSQM, HKSAE, HKSRS, HKICPA Code of Ethics, and ESG guidance.
 - ⚖️ **Materiality & Risk Triage** – Calculates overall materiality, performance materiality, and clearly trivial thresholds (HKSA 320). Flags issues by severity (Critical / High / Medium / Low) so you focus on what really matters.
 - 🎯 **Audit Sampling Engine** – Uses materiality values to compute required sample sizes under HKSA 530. Alerts when sample sizes are insufficient.
 - 🔍 **Ethics & Independence Tracker** – Detects breaches of confidentiality, objectivity, and independence (e.g., audit partner also providing tax advisory).
@@ -33,7 +33,7 @@
 
 ## 💡Compliance Transformation Impact
 This project shows how AI can strengthen financial governance by:
-- Automating anomaly detection across important Hong Kong compliance professional frameworks (including HKFRS, HKAS, HKSA, HKSQM, HKICPA Code of Ethics, HKSAE, HKSRS, ESG guidance) – reducing manual review time.
+- Automating anomaly detection across important Hong Kong compliance professional frameworks (including HKFRS, HKAS, HKSA, HKSQM, HKSAE, HKSRS, HKICPA Code of Ethics, ESG guidance) – reducing manual review time.
 - Embedding materiality‑based judgment into everyday compliance checks – aligning with real audit methodology.
 - Improving audit quality through automated sampling calculations, ethics monitoring, and documentation gap alerts.
 - Preparing firms for regulatory inspection with a ready‑to‑export Practice Review file.
@@ -48,8 +48,8 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 | **Accounting**	| HKFRS, HKAS (recognition, measurement, disclosure)| 
 | **Auditing**	| HKSA 230, 320, 500, 505, 530, 550, 570, etc.| 
 | **Quality Management**	| HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)| 
-| **Ethics**	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
 | **Assurance & Related Services**	| HKSAEs, HKSRS 4400 (agreed‑upon procedures)| 
+| **Ethics**	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
 | **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
 
 ## ⭐ Finance & Audit Skills Strengthened
@@ -123,13 +123,13 @@ This package provides structured test data to validate the application’s abili
 ### Scope
 The tests cover:
 - Accounting (HKFRS 15, HKFRS 16)
-- Audit (HKSA 230, HKSA 530)
-- Quality Management (HKSQM 1, HKSQM 2)
-- Ethics & Independence (HKICPA Code of Ethics)
-- Assurance & Related Services (HKSRS 4400)
-- ESG / Sustainability Disclosures
+- Audit (HKSA 230)
 - Materiality calculation & risk triage (HKSA 320)
 - Audit sampling size engine (HKSA 530)
+- Quality Management (HKSQM 1, HKSQM 2)
+- Assurance & Related Services (HKSRS 4400)
+- Ethics & Independence (HKICPA Code of Ethics)
+- ESG / Sustainability Disclosures
 
 ### Companies Used
 - ABC Corporation Limited (fictitious, for initial tests)
