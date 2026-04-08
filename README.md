@@ -59,7 +59,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 - **Engagement Quality Review (HKSQM 2; HKSAE 3000 Revised)** – Built EQR assignment dashboards/workflows and comprehensive review checklists, ensuring compliance with quality management requirements for listed entity audits and assurance engagements.
 - **Regulatory Inspection Readiness (HKSAE 3000; HKSAE 3402)** – Developed a one‑click export feature that packages the entire audit file in HKICPA Practice Review structure, with filtering by standard (e.g., HKSA 230, HKFRS 16) and full audit trail logging suitable for external auditor and regulator review.
 - **Ethics & Independence Integration (HKSAE 3000; HKSAE 3402)** – Embedded HKICPA Code of Ethics checks into multi‑company workflows, including confidentiality breach detection, independence threat identification, and non‑audit service conflict flagging.
-- **Multi‑Format Data Ingestion (HKSAE 3000; HKSAE 3410)** – Built parsers for structured data (ERP exports, SAP, Oracle, Excel trial balances) and unstructured data (working papers, ESG disclosures, sustainability reports).
+- **Multi‑Format Data Ingestion (HKSAE 3000; HKSAE 3410)** – Built parsers for structured data (ERP exports, SAP, Oracle, Excel trial balances) and unstructured data (working papers, ESG disclosures, sustainability reports), supporting assurance on both financial and non‑financial information.
 
 ## 🤖 Tech Stack
 - **Language** – TypeScript, HTML
