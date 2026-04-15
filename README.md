@@ -294,11 +294,22 @@ This sample is intended exclusively for software testing, academic, or professio
 
 **This App:**
 
-This app is for informational and demonstration purposes only. It does not constitute professional accounting, auditing, or legal advice. Always consult a qualified professional before making compliance decisions.
+This app is for **informational and demonstration purposes only**. It does not constitute professional accounting, auditing, or legal advice. Always consult a qualified professional before making compliance decisions.
 
 The app is provided “as is” without warranties of accuracy or fitness for a particular purpose. Outputs are based on pre‑defined rules and AI models; professional judgment remains essential.
 
 To the fullest extent permitted by law, the developer of this app is not liable for any damages arising from use of this app.
+
+## 📄 License
+
+**GNU Affero General Public License v3.0 (AGPL‑3.0)** — JeffreyWoo HK Compliance
+
+- ✅ You are free to use, modify, and distribute this software, provided that any derivative works are also licensed under AGPL‑3.0.
+- ✅ If you run or deploy this software over a network (e.g., as a web service), you must make the source code of your modified version available to all users who interact with it.
+- ✅ This ensures transparency, collaboration, and continued open‑source availability of improvements.
+- ❌ The software is provided “as is”, without warranties of any kind.
+
+For full details, see the [LICENSE](./LICENSE) file.
 
 ## 👤 About the Author
 Jeffrey Woo — Finance Manager | Strategic FP&A, AI Automation & Cost Optimization | MBA | FCCA | CTA | FTIHK | SAP Financial Accounting (FI) Certified Application Associate | Xero Advisor Certified
