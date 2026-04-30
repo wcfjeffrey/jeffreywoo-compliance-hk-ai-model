@@ -284,6 +284,8 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 ## 📐Data Flow and Logic Sequence
 
+The following diagram illustrates how the system processes compliance data — from company setup and document upload through Gemini API analysis to the final Practice Review‑ready export — without sensitive data leaving your controlled environment (when deployed locally).
+
 ```mermaid
 flowchart TD
     subgraph SETUP["Phase 1: Company Setup"]
@@ -323,6 +325,8 @@ flowchart TD
     U5 --> A1
     A8 --> O1
 ```
+
+> **Note on Local Deployment:** When the app is deployed locally (see Local Deployment Option section), all data remains on your servers. The "Gemini API" step shown below can be replaced with local rule‑based engines for offline operation.
 
 ## ⚖️ Disclaimer
 
