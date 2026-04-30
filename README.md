@@ -95,6 +95,15 @@ The following diagram illustrates how the system processes compliance data — f
 
 > **Note on Local Deployment:** When the app is deployed locally (see Local Deployment Option section), all data remains on your servers. The "Gemini API" step shown below can be replaced with local rule‑based engines for offline operation.
 
+> **How to read this diagram:** The system follows 4 sequential phases:
+> 
+> | Phase | Name | Key Activities | Standards Applied |
+> |-------|------|----------------|-------------------|
+> | **1** | **Company Setup** | Create company profile → set financial year-end → auto-assign IRD code (N/D/M) → set materiality benchmarks | IRD Accounting Date Codes, HKSA 320 |
+> | **2** | **Document Upload** | Upload trial balance (XLSX), audit working papers (DOCX), ESG report (PDF) → extract financial data | HKSA 500, HKSAE 3410 |
+> | **3** | **AI Compliance Analysis** | Gemini API analysis → check HKFRS/HKAS/HKSA → calculate materiality → compute sample size → detect ethics breaches → review ESG disclosures → assign severity → map to Audit File Index (A–Z) | HKFRS, HKAS, HKSA 320/530, HKICPA Code of Ethics, HKSAE 3000/3410 |
+> | **4** | **Output & Export** | Display compliance dashboard → group by standard and severity → export Practice Review file → PDF/Excel download | HKICPA Practice Review format, HKSA 230 |
+
 ```mermaid
 flowchart TD
     subgraph SETUP["Phase 1: Company Setup"]
