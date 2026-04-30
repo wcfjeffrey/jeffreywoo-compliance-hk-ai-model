@@ -282,6 +282,48 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **Current status:** Local deployment is a supported configuration. For organisations with strict data residency or confidentiality requirements, please contact me for setup guidance.
 
+## 📐Data Flow and Logic Sequence
+
+```mermaid
+flowchart TD
+    subgraph SETUP["Phase 1: Company Setup"]
+        direction TB
+        S1["Create Company Profile"] --> S2["Set Financial Year End"]
+        S2 --> S3["Auto-assign IRD Code N/D/M"]
+        S3 --> S4["Set Materiality Benchmarks"]
+    end
+
+    subgraph UPLOAD["Phase 2: Document Upload"]
+        direction TB
+        U1["Upload Documents"] --> U2["Trial Balance XLSX"]
+        U1 --> U3["Audit Working Papers DOCX"]
+        U1 --> U4["ESG Report PDF"]
+        U2 --> U5["Extract Financial Data"]
+    end
+
+    subgraph ANALYZE["Phase 3: AI Compliance Analysis"]
+        direction TB
+        A1["Gemini API Analysis"] --> A2["Check HKFRS HKAS HKSA"]
+        A2 --> A3["Calculate Materiality HKSA 320"]
+        A3 --> A4["Compute Sample Size HKSA 530"]
+        A4 --> A5["Detect Ethics Breaches"]
+        A5 --> A6["Review ESG Disclosures"]
+        A6 --> A7["Assign Severity Critical/High/Medium/Low"]
+        A7 --> A8["Map to Audit File Index A-Z"]
+    end
+
+    subgraph OUTPUT["Phase 4: Output & Export"]
+        direction TB
+        O1["Display Compliance Dashboard"] --> O2["Group by Standard and Severity"]
+        O2 --> O3["Export Practice Review File"]
+        O3 --> O4["PDF Excel Download"]
+    end
+
+    S4 --> U1
+    U5 --> A1
+    A8 --> O1
+```
+
 ## ⚖️ Disclaimer
 
 **Testing Sample:**
