@@ -52,6 +52,43 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 | **Ethics**	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
 | **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
 
+## 📁 HKICPA Audit File Index
+ <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="600" height="600" />
+
+The HKICPA Audit File Index (A–Z) is a standardised referencing system recommended by the Hong Kong Institute of Certified Public Accountants (HKICPA) to help auditors organise audit working papers and documentation consistently. This structured approach ensures compliance with Hong Kong Standards on Auditing (HKSAs) and makes audit files reviewable and comparable across different engagements.
+
+In practice, audit firms often adapt the index to suit specific engagement characteristics, including:
+- Client size and complexity – e.g., SMEs vs. listed companies.
+- Industry‑specific requirements – e.g., banks, insurers, property developers.
+- ERP or financial reporting systems – e.g., SAP, Oracle, Xero.
+
+These adaptations ensure the audit file remains both compliant and practical, reflecting the risk profile and operational reality of each client.
+
+**Usage in this app:**
+Each identified compliance issue is automatically tagged with the relevant alphabetical section.
+
+This helps you:
+- Map findings directly to required audit file sections.
+- Structure your working papers in line with HKICPA Practice Review expectations.
+- Quickly locate and cross-reference documentation during internal or regulatory inspections (e.g., Practice Review by the HKICPA).
+
+*Tip: When exporting the Practice Review‑ready file, the app will automatically arrange your documentation and findings according to the HKICPA Audit File Index order.*
+
+## 📦 Getting Started
+
+1. **Set up a new company/client** – Configure the company profile, including:
+- Company name
+- Financial year‑end (automatically assigned an IRD Accounting Date Code)
+- Industry (optional)
+- Business registration number (optional)
+- Key personnel (optional)
+- Preliminary estimated materiality thresholds (can be updated automatically later by fetching financial data from the uploaded trial balance or financial statement).
+2. **Upload your accounting, audit, and compliance documents** – Supported formats: CSV, TXT, JSON, XLSX, DOCX, or PDF (max file size 10MB per file).  
+Examples include: trial balance, audit working papers, compliance issues, quality management records, engagement quality review checklist, client continuance assessment, quality monitoring reports, partner performance reviews, quality control review notes, and ESG/sustainability reports.  
+3. **Automatic issue detection & mapping** – The app automatically identifies issues and maps them to the relevant Hong Kong financial reporting, auditing, assurance, ethical, and sustainability‑related standards.  
+4. **Review the Compliance Dashboard** – Issues are grouped by category, severity, and HKICPA Audit File Index (A–Z).  
+5. **Export for regulatory inspection** – Use the Regulatory Inspection View to generate a Practice Review‑ready file.
+
 ## 📐Data Flow and Logic Sequence
 
 The following diagram illustrates how the system processes compliance data — from company setup and document upload through Gemini API analysis to the final Practice Review‑ready export — without sensitive data leaving your controlled environment (when deployed locally).
@@ -113,43 +150,6 @@ flowchart TD
 - **UI** – Standard React components, styled via TSX
 - **Runtime** – Node.js
 - **AI** – Google Gemini (for anomaly detection and standard mapping)
-
-## 📦 Getting Started
-
-1. **Set up a new company/client** – Configure the company profile, including:
-- Company name
-- Financial year‑end (automatically assigned an IRD Accounting Date Code)
-- Industry (optional)
-- Business registration number (optional)
-- Key personnel (optional)
-- Preliminary estimated materiality thresholds (can be updated automatically later by fetching financial data from the uploaded trial balance or financial statement).
-2. **Upload your accounting, audit, and compliance documents** – Supported formats: CSV, TXT, JSON, XLSX, DOCX, or PDF (max file size 10MB per file).  
-Examples include: trial balance, audit working papers, compliance issues, quality management records, engagement quality review checklist, client continuance assessment, quality monitoring reports, partner performance reviews, quality control review notes, and ESG/sustainability reports.  
-3. **Automatic issue detection & mapping** – The app automatically identifies issues and maps them to the relevant Hong Kong financial reporting, auditing, assurance, ethical, and sustainability‑related standards.  
-4. **Review the Compliance Dashboard** – Issues are grouped by category, severity, and HKICPA Audit File Index (A–Z).  
-5. **Export for regulatory inspection** – Use the Regulatory Inspection View to generate a Practice Review‑ready file.
-
-## 📁 HKICPA Audit File Index
- <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="600" height="600" />
-
-The HKICPA Audit File Index (A–Z) is a standardised referencing system recommended by the Hong Kong Institute of Certified Public Accountants (HKICPA) to help auditors organise audit working papers and documentation consistently. This structured approach ensures compliance with Hong Kong Standards on Auditing (HKSAs) and makes audit files reviewable and comparable across different engagements.
-
-In practice, audit firms often adapt the index to suit specific engagement characteristics, including:
-- Client size and complexity – e.g., SMEs vs. listed companies.
-- Industry‑specific requirements – e.g., banks, insurers, property developers.
-- ERP or financial reporting systems – e.g., SAP, Oracle, Xero.
-
-These adaptations ensure the audit file remains both compliant and practical, reflecting the risk profile and operational reality of each client.
-
-**Usage in this app:**
-Each identified compliance issue is automatically tagged with the relevant alphabetical section.
-
-This helps you:
-- Map findings directly to required audit file sections.
-- Structure your working papers in line with HKICPA Practice Review expectations.
-- Quickly locate and cross-reference documentation during internal or regulatory inspections (e.g., Practice Review by the HKICPA).
-
-*Tip: When exporting the Practice Review‑ready file, the app will automatically arrange your documentation and findings according to the HKICPA Audit File Index order.*
 
 ## ⚙️ Run Locally
 
