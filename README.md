@@ -337,6 +337,130 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **Current status:** Local deployment is a supported configuration. For organisations with strict data residency or confidentiality requirements, please contact me for setup guidance.
 
+## Source References
+
+This compliance monitoring tool references the following Hong Kong accounting, auditing, and ethical standards. Below are the official sources and citation information.
+
+**Official Standards & Frameworks**
+
+**Hong Kong Financial Reporting Standards (HKFRS) & Hong Kong Accounting Standards (HKAS)**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Access: https://www.hkicpa.org.hk/en/Standards-and-regulations/Standards/Financial-reporting
+- Citation: Hong Kong Institute of Certified Public Accountants. (2025). Hong Kong Financial Reporting Standards. https://www.hkicpa.org.hk
+
+**Hong Kong Standards on Auditing (HKSA)**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Key Standards Referenced:**
+  - HKSA 230 (Audit Documentation)
+  - HKSA 320 (Materiality in Planning and Performing an Audit)
+  - HKSA 500 (Audit Evidence)
+  - HKSA 530 (Audit Sampling)
+  - HKSA 550 (Related Parties)
+  - HKSA 570 (Going Concern)
+- Access: https://www.hkicpa.org.hk/en/Standards-and-regulations/Standards/Auditing-and-assurance/HKSAs-100-999
+- Citation: Hong Kong Institute of Certified Public Accountants. (2025). Hong Kong Standards on Auditing. https://www.hkicpa.org.hk
+
+**Hong Kong Standards on Quality Management (HKSQM)**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Key Standards Referenced:
+  - HKSQM 1 (Quality Management for Firms)
+  - HKSQM 2 (Engagement Quality Reviews)
+- Access: https://www.hkicpa.org.hk/en/Standards-and-regulations/Standards/Quality-management
+- Citation: Hong Kong Institute of Certified Public Accountants. (2022). HKSQM 1, Quality management for firms that perform audits or reviews of financial statements, or other assurance or related services engagements. https://www.hkicpa.org.hk
+
+**HKICPA Code of Ethics**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Access: https://www.hkicpa.org.hk/en/Standards-and-regulations/Standards/Code-of-Ethics
+- Citation: Hong Kong Institute of Certified Public Accountants. (2018). Code of ethics for professional accountants (Revised ed.). https://www.hkicpa.org.hk
+
+**Hong Kong Standards on Assurance Engagements (HKSAE)**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Key Standards Referenced:
+  - HKSAE 3000 (Assurance Engagements Other Than Audits or Reviews)
+  - HKSAE 3402 (Assurance Reports on Controls)
+  - HKSAE 3410 (Assurance on Greenhouse Gas Statements)**
+- Access: https://www.hkicpa.org.hk/en/Standards-and-regulations/Standards/Auditing-and-assurance/HKSAEs-3000-3699
+- Citation: Hong Kong Institute of Certified Public Accountants. (2025). Hong Kong Standards on Assurance Engagements. https://www.hkicpa.org.hk
+
+**Hong Kong Standards on Related Services (HKSRS)**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+
+**Key Standard Referenced: HKSRS 4400 (Agreed-Upon Procedures Engagements)**
+
+- Access: https://www.hkicpa.org.hk/en/Standards-and-regulations/Standards/Auditing-and-assurance/HKSRSs-4000-4999
+- Citation: Hong Kong Institute of Certified Public Accountants. (2025). Hong Kong Standards on Related Services. https://www.hkicpa.org.hk
+
+**ESG & Sustainability Disclosure Guidance**
+
+**HKICPA Sustainability Guidance**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Access: https://www.hkicpa.org.hk/en/Sustainability
+- Key Reference: Auditing and Assurance Technical Bulletin (AATB) 5: Environmental, Social and Governance (ESG) Assurance Reporting**
+- Citation: Hong Kong Institute of Certified Public Accountants. (n.d.). Auditing and assurance technical bulletin (AATB) 5: Environmental, Social and Governance (ESG) assurance reporting. A Plus. https://aplus.hkicpa.org.hk
+
+**ISSB-Aligned Disclosure Standards (HKFRS S1 & S2)**
+
+- Source: International Sustainability Standards Board (ISSB) / HKICPA
+- Access: https://www.hkicpa.org.hk/en/Sustainability/HKFRS-Sustainability-Disclosure-Standards
+- Citation: Hong Kong Institute of Certified Public Accountants. (2024). *HKFRS S1 General requirements for disclosure of sustainability-related financial information*. https://www.hkicpa.org.hk
+
+**Regulatory & Filing Guidance**
+
+**Inland Revenue Department (IRD) - Accounting Date Codes**
+
+- Source: Inland Revenue Department, Hong Kong SAR Government
+- Access: https://www.ird.gov.hk
+- Citation: Inland Revenue Department. (2025). Profits tax returns filing guidelines. Hong Kong SAR Government. https://www.ird.gov.hk
+
+**HKICPA Practice Review Framework**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Access: https://www.hkicpa.org.hk/en/Practice-Review
+- Citation: Hong Kong Institute of Certified Public Accountants. (2025). Practice review manual. https://www.hkicpa.org.hk
+
+**HKICPA Audit File Index (A-Z)**
+
+- Source: Hong Kong Institute of Certified Public Accountants (HKICPA)
+- Reference: Practice Review Manual - Audit Documentation Guidelines
+- Access: https://www.hkicpa.org.hk/en/Practice-Review/Practice-Review-Manual
+
+**Professional Guidance & Commentaries**
+
+**Quality Management Implementation**
+
+- Citation: Lo, C. (2021, March). A new approach to quality management. A Plus. https://aplus.hkicpa.org.hk
+
+**Code of Ethics Revisions**
+
+- Citation: Chan, S. (2019, November). Revised Code of Ethics: Key areas of focus for auditors. A Plus. https://aplus.hkicpa.org.hk
+
+**Technical Updates**
+
+- Citation: Hong Kong Institute of Certified Public Accountants. (2025, January 7). Handbook update No. 320. Technical News. https://www.hkicpa.org.hk
+
+**Regulatory Enforcement**
+
+**Accounting and Financial Reporting Council (AFRC)**
+
+- Source: Accounting and Financial Reporting Council, Hong Kong
+- Access: https://www.afrc.org.hk
+- Citation: Accounting and Financial Reporting Council. (n.d.). Completed enquiry and investigations. https://www.afrc.org.hk
+
+**Training & Educational Resources**
+
+- Citation: CPA Australia. (2017). *Audit documentation - Workshop 2017*. ILEARNING PLUS. https://learn.cpaaustralia.com.au
+
+**Dictionary & Terminology**
+
+- Citation: Law Insider. (2025). HKFRS 16 definition. https://www.lawinsider.com/dictionary/hkfrs-16
+
 ## ⚖️ Disclaimer
 
 **Testing Sample:**
