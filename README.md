@@ -345,11 +345,11 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **Hong Kong Financial Reporting Standards (HKFRS) & Hong Kong Accounting Standards (HKAS)**
 
-- [Hong Kong Institute of Certified Public Accountants. (2025). Hong Kong Financial Reporting Standards.](https://www.hkicpa.org.hk/en/Standards-setting/Standards/Members-Handbook-and-Due-Process/Due-Process/Financial-reporting)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). Hong Kong Financial Reporting Standards.](https://www.hkicpa.org.hk/en/Standards-setting/Standards/Members-Handbook-and-Due-Process/Due-Process/Financial-reporting)
 
 **Hong Kong Standards on Auditing (HKSA)**
 
-- [Hong Kong Institute of Certified Public Accountants. (2025). Hong Kong Auditing and Assurance Standards.](https://www.hkicpa.org.hk/en/Standards-setting/Standards/Members-Handbook-and-Due-Process/Due-Process/Auditing-Assurance)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). Hong Kong Auditing and Assurance Standards.](https://www.hkicpa.org.hk/en/Standards-setting/Standards/Members-Handbook-and-Due-Process/Due-Process/Auditing-Assurance)
 - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSA 230 (Audit Documentation).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/3094hksa230.pdf#page=1)
 - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSA 320 (Materiality in Planning and Performing an Audit).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/30910sa320.pdf#page=1)
 - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSA 500 (Audit Evidence).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksa500cfd.pdf#page=1)
@@ -364,7 +364,7 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **HKICPA Code of Ethics**
 
-- [Hong Kong Institute of Certified Public Accountants. (2018). Code of ethics for professional accountants (Revised ed.).](https://www.hkicpa.org.hk/en/Standards-setting/Standards/New-and-major-standards/New-and-Major-Standards/New-code-of-ethics)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). Code of ethics for professional accountants (Revised ed.).](https://www.hkicpa.org.hk/en/Standards-setting/Standards/New-and-major-standards/New-and-Major-Standards/New-code-of-ethics)
 
 **Hong Kong Standards on Assurance Engagements (HKSAE)**
 
@@ -384,9 +384,9 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **ISSB-Aligned Disclosure Standards (HKFRS S1 & S2)**
 
-- [Hong Kong Institute of Certified Public Accountants. (2024). *HKFRS S1 General Requirements for
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). *HKFRS S1 General Requirements for
 Disclosure of Sustainabilityrelated Financial Information*.](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIV/319s1.pdf)
-- [Hong Kong Institute of Certified Public Accountants. (2024). *HKFRS S2 Climate-related Disclosures*.](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIV/319s2.pdf#page=1)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). *HKFRS S2 Climate-related Disclosures*.](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIV/319s2.pdf#page=1)
 
 **3. Regulatory & Filing Guidance**
 
@@ -396,7 +396,7 @@ Disclosure of Sustainabilityrelated Financial Information*.](https://www.hkicpa.
 
 **HKICPA Practice Review Framework**
 
-- [Hong Kong Institute of Certified Public Accountants. (2006). Practice review procedures manual.](https://www.hkicpa.org.hk/-/media/HKICPA-Website/HKICPA/section6_standards/quality_assurance/practice_review_procedures_manual.pdf)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). Practice review procedures manual.](https://www.hkicpa.org.hk/-/media/HKICPA-Website/HKICPA/section6_standards/quality_assurance/practice_review_procedures_manual.pdf)
 
 **HKICPA Audit File Index (A-Z)**
 
