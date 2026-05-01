@@ -359,8 +359,8 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **Hong Kong Standards on Quality Management (HKSQM)**
 
-- [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSQM 1 (Quality Management for Firms)](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksqm1.pdf)
-- [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSQM 2 (Engagement Quality Reviews)](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksqm2.pdf)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSQM 1 (Quality Management for Firms).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksqm1.pdf)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSQM 2 (Engagement Quality Reviews).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksqm2.pdf)
 
 **HKICPA Code of Ethics**
 
@@ -368,9 +368,9 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **Hong Kong Standards on Assurance Engagements (HKSAE)**
 
-  - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSAE 3000 (Assurance Engagements Other Than Audits or Reviews)](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksae3000rev.pdf)
-  - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSAE 3402 (Assurance Reports on Controls)](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksae3402.pdf)
-  - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSAE 3410 (Assurance on Greenhouse Gas Statements)](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksae3410.pdf)
+  - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSAE 3000 (Assurance Engagements Other Than Audits or Reviews).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksae3000rev.pdf)
+  - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSAE 3402 (Assurance Reports on Controls).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksae3402.pdf)
+  - [Hong Kong Institute of Certified Public Accountants (HKICPA). HKSAE 3410 (Assurance on Greenhouse Gas Statements).](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/volumeIII/hksae3410.pdf)
 
 **Hong Kong Standards on Related Services (HKSRS)**
 
@@ -380,7 +380,7 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **HKICPA Sustainability Guidance**
 
-- [Hong Kong Institute of Certified Public Accountants (HKICPA). Auditing and Assurance Technical Bulletin (AATB) 5: Environmental, Social and Governance (ESG) Assurance Reporting](https://aplus.hkicpa.org.hk)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). Auditing and Assurance Technical Bulletin (AATB) 5: Environmental, Social and Governance (ESG) Assurance Reporting.](https://aplus.hkicpa.org.hk)
 
 **ISSB-Aligned Disclosure Standards (HKFRS S1 & S2)**
 
@@ -400,7 +400,7 @@ Disclosure of Sustainabilityrelated Financial Information*.](https://www.hkicpa.
 
 **HKICPA Audit File Index (A-Z)**
 
-- [Hong Kong Institute of Certified Public Accountants (HKICPA). (2022). Practice Review Manual - Audit Documentation Guidelines.](https://www.scribd.com/document/727149541/apm-egmcl))
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). (2022). Practice Review Manual - Audit Documentation Guidelines.](https://www.scribd.com/document/727149541/apm-egmcl)
 
 **4. Professional Guidance & Commentaries**
 
