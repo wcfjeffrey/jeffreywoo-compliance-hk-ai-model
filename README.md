@@ -392,29 +392,29 @@ Disclosure of Sustainabilityrelated Financial Information*.](https://www.hkicpa.
 
 **Inland Revenue Department (IRD) - Accounting Date Codes**
 
-- [Inland Revenue Department. (2025). Profits tax returns filing guidelines. Hong Kong SAR Government.](https://www.ird.gov.hk)
+- [Inland Revenue Department. (2025). Profits tax returns filing guidelines. Hong Kong SAR Government.](https://www.gov.hk/en/residents/taxes/taxfiling/filing/types/profitstax.htm)
 
 **HKICPA Practice Review Framework**
 
-- [Hong Kong Institute of Certified Public Accountants. (2025). Practice review manual.](https://www.hkicpa.org.hk/en/Practice-Review)
+- [Hong Kong Institute of Certified Public Accountants. (2006). Practice review procedures manual.](https://www.hkicpa.org.hk/-/media/HKICPA-Website/HKICPA/section6_standards/quality_assurance/practice_review_procedures_manual.pdf)
 
 **HKICPA Audit File Index (A-Z)**
 
-- [Hong Kong Institute of Certified Public Accountants (HKICPA). Practice Review Manual - Audit Documentation Guidelines.](https://www.hkicpa.org.hk/en/Practice-Review/Practice-Review-Manual)
+- [Hong Kong Institute of Certified Public Accountants (HKICPA). (2022). Practice Review Manual - Audit Documentation Guidelines.](https://www.scribd.com/document/727149541/apm-egmcl))
 
 **4. Professional Guidance & Commentaries**
 
 **Quality Management Implementation**
 
-- [Lo, C. (2021, March). A new approach to quality management. A Plus.](https://aplus.hkicpa.org.hk)
+- [Ng, E. (2022, February). New Quality Management Standards Series – Navigating the commitment to quality. A Plus.](https://aplus.hkicpa.org.hk/meet-the-speaker-new-quality-management-standards-series-navigating-the-commitment-to-quality)
 
 **Code of Ethics Revisions**
 
-- [Chan, S. (2019, November). Revised Code of Ethics: Key areas of focus for auditors. A Plus.](https://aplus.hkicpa.org.hk)
+- [Chan, S. (2019, November). Revised Code of Ethics: Key areas of focus for auditors. A Plus.](https://aplus.hkicpa.org.hk/revised-code-of-ethics-key-areas-of-focus-for-auditors)
 
 **Technical Updates**
 
-- [Hong Kong Institute of Certified Public Accountants. (2025, January 7). Handbook update No. 320. Technical News.](https://www.hkicpa.org.hk)
+- [Hong Kong Institute of Certified Public Accountants. (2024, December 23). Handbook update No. 320. Technical News.](https://www.hkicpa.org.hk/-/media/HKICPA-Website/Members-Handbook/updates/update320.pdf)
 
 **5. Regulatory Enforcement**
 
