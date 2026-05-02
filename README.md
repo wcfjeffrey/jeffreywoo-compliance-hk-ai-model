@@ -50,7 +50,7 @@ Most compliance tools only flag **“rule violations”**. HK Compliance AI goes
 | **Quality Management**	| HKSQM 1 (firm‑level), HKSQM 2 (engagement quality review)| 
 | **Assurance & Related Services**	| HKSAE 3000, 3402, 3410, HKSRS 4400 (agreed‑upon procedures)| 
 | **Ethics**	| HKICPA Code of Ethics (integrity, objectivity, confidentiality, independence)| 
-| **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure checks| 
+| **ESG / Sustainability**	| HKICPA sustainability guidance, ISSB‑aligned disclosure (HKFRS S1 & S2) checks| 
 
 ## 📁 HKICPA Audit File Index
  <img src="assets/JeffreyWooComplianceHK1.png" alt="JeffreyWooComplianceHK1" width="600" height="600" />
@@ -149,9 +149,11 @@ flowchart TD
 - **Audit Sampling Automation (HKSA 530; HKSAE 3000 Revised)** – Implemented audit sampling methodologies with sample size calculations driven by Performance Materiality, automatically flagging insufficient sample sizes in assurance engagements.
 - **Quality Management System (HKSQM 1; HKSAE 3402)** – Designed support for all 8 components of firm‑level quality management, including Risk Assessment Process, Governance and Leadership, Relevant Ethical Requirements, Acceptance and Continuance, Engagement Performance, Resources, Information and Communication, Monitoring and Remediation Process.
 - **Engagement Quality Review (HKSQM 2; HKSAE 3000 Revised)** – Built EQR assignment dashboards/workflows and comprehensive review checklists, ensuring compliance with quality management requirements for listed entity audits and assurance engagements.
-- **Regulatory Inspection Readiness (HKSAE 3000; HKSAE 3402)** – Developed a one‑click export feature that packages the entire audit file in HKICPA Practice Review structure, with filtering by standard (e.g., HKSA 230, HKFRS 16) and full audit trail logging suitable for external auditor and regulator review.
+- **Agreed-Upon Procedures (HKSRS 4400)** – Developed AUP engagement workflows enabling practitioners to perform specified procedures on financial and non-financial information (e.g., accounts payable, inventory counts, sustainability metrics), issue Findings Reports without assurance conclusions, and maintain complete engagement documentation.
+- **Sustainability Disclosures (HKFRS S1 & HKFRS S2)** – Integrated climate-related financial disclosure workflows aligned with IFRS Sustainability Standards: HKFRS S1 (governance, strategy, risk management, metrics and targets across the value chain) and HKFRS S2 (physical and transition risks, scenario analysis, Scope 1–3 GHG emissions, industry-based metrics). Enabled audit-ready sustainability reporting with cross-validation against financial statements.
+- **Regulatory Inspection Readiness (HKSAE 3000; HKSAE 3402)** – Developed a one‑click export feature that packages the entire audit file in HKICPA Practice Review structure, with filtering by standard (e.g., HKSA 230, HKSAE 3000, HKSRS 4400, HKFRS S1, HKFRS S2, HKFRS 16) and full audit trail logging suitable for external auditor and regulator review.
 - **Ethics & Independence Integration (HKSAE 3000; HKSAE 3402)** – Embedded HKICPA Code of Ethics checks into multi‑company workflows, including confidentiality breach detection, independence threat identification, and non‑audit service conflict flagging.
-- **Multi‑Format Data Ingestion (HKSAE 3000; HKSAE 3410)** – Built parsers for structured data (ERP exports, SAP, Oracle, Excel trial balances) and unstructured data (working papers, ESG disclosures, sustainability reports), supporting assurance on both financial and non‑financial information.
+- **Multi‑Format Data Ingestion (HKSAE 3000; HKSAE 3410; HKSRS 4400; HKFRS S1; HKFRS S2)** – Built parsers for structured data (ERP exports, SAP, Oracle, Excel trial balances) and unstructured data (working papers, ESG disclosures, sustainability reports, GHG emissions inventories), supporting assurance and agreed‑upon procedures engagements on both financial and non‑financial information.
 
 ## 🤖 Tech Stack
 - **Language** – TypeScript, HTML
