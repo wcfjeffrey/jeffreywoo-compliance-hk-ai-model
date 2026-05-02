@@ -337,9 +337,7 @@ While the current version includes optional cloud‑based AI features (e.g., Gem
 
 **Current status:** Local deployment is a supported configuration. For organisations with strict data residency or confidentiality requirements, please contact me for setup guidance.
 
-## Source References
-
-**JeffreyWoo Compliance HK** references the following Hong Kong accounting, auditing, and ethical standards. Below are the official sources and citation information:
+## 📚 References
 
 **1. Official Standards & Frameworks**
 
